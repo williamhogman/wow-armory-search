@@ -1,0 +1,9 @@
+= Future Updates =
+This page list future updates for the projects
+
+== Caching ==
+Caching is going to be added to the project this caching should only be preformed whilst the  player isn't playing. The cached files will be saved to "cache/chars/SERVER-NAME/PLAYER_NAME"
+
+==Smart Caching ==
+Downloads data about teams that the player is likely to meet.
+IE
