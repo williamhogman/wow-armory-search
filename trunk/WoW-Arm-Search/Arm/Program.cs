@@ -31,7 +31,8 @@ namespace Arm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new viewer());
+       Application.Run(new Search());
+          
         }
     }
 }

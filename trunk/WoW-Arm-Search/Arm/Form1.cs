@@ -38,8 +38,9 @@ namespace Arm
             settings.ConformanceLevel = ConformanceLevel.Fragment;
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
-            XmlReader reader = XmlReader.Create("armory.xml", settings);
 
+            XmlReader reader = XmlReader.Create("armory.xml", settings);
+            reader.Read();
 
             reader.ReadToFollowing("character");
            lbl_name.Text = reader.GetAttribute("name");
