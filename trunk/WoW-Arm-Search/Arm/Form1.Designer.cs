@@ -123,11 +123,11 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.lbl_hp, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_mana, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.label20, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.lbl_resc, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.label22, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.lbl_spec, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lbl_mana, 1, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(61, 69);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
@@ -175,24 +175,25 @@
             // 
             // team3
             // 
-            this.team3.Location = new System.Drawing.Point(12, 506);
+            this.team3.Location = new System.Drawing.Point(14, 513);
             this.team3.Name = "team3";
             this.team3.Size = new System.Drawing.Size(386, 104);
             this.team3.TabIndex = 25;
             // 
-            // team_2
+            // team2
             // 
-            this.team2.Location = new System.Drawing.Point(12, 385);
-            this.team2.Name = "team_2";
+            this.team2.Location = new System.Drawing.Point(14, 411);
+            this.team2.Name = "team2";
             this.team2.Size = new System.Drawing.Size(386, 104);
             this.team2.TabIndex = 24;
             // 
             // team1
             // 
-            this.team1.Location = new System.Drawing.Point(0, 275);
+            this.team1.Location = new System.Drawing.Point(14, 298);
             this.team1.Name = "team1";
             this.team1.Size = new System.Drawing.Size(386, 104);
             this.team1.TabIndex = 23;
+
             // 
             // viewer
             // 
