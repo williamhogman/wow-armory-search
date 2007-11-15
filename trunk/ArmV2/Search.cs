@@ -1,7 +1,7 @@
 ﻿/* Copyright Nameless Gnome
  * This file is part of WoW Armory Search.
 
-    WoW Armory Search is free software: you can redistribute it and/or modify
+    Foobar is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
@@ -36,7 +36,7 @@ namespace Arm
 
         private void btn_go_Click(object sender, EventArgs e)
         {
-   Download_Char(tbx_name.Text, tbx_rel.Text);
+    Save(  Download_Char(tbx_name.Text, tbx_rel.Text));
       viewer View_frm = new viewer();     
 
         View_frm.Show();
@@ -45,9 +45,9 @@ namespace Arm
         }
 
 
-        private void Save(string data,string name,string rel) {
+        private void Save(string data) {
             
-            StreamWriter stream = new StreamWriter("DB/"+tbx_rel.Text+"/"+tbx_name.Text+".xml",false);
+            StreamWriter stream = new StreamWriter("armory.xml",false);
        
             stream.Write(data);
 
@@ -58,11 +58,7 @@ namespace Arm
         }
 
         public string Download_Char(string name,string server){
-            FileInfo fi = new FileInfo(server+"/"+name+".xml");
-       if    (!fi.Exists){
-            Save(Arm_dl("http://eu.wowarmory.com/character-sheet.xml?r="+server+"&n="+name),name,server);
-      
-       }
+            return Arm_dl("http://eu.wowarmory.com/character-sheet.xml?r="+server+"&n="+name);
         }
 
 

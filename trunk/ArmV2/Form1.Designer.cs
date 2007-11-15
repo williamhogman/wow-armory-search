@@ -55,7 +55,7 @@
             this.lbl_name.BackColor = System.Drawing.Color.Transparent;
             this.lbl_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_name.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lbl_name.Location = new System.Drawing.Point(154, 11);
+            this.lbl_name.Location = new System.Drawing.Point(166, 13);
             this.lbl_name.Name = "lbl_name";
             this.lbl_name.Size = new System.Drawing.Size(0, 31);
             this.lbl_name.TabIndex = 0;
@@ -105,10 +105,12 @@
             this.lbl_class.BackColor = System.Drawing.Color.Transparent;
             this.lbl_class.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_class.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lbl_class.Location = new System.Drawing.Point(154, 49);
+            this.lbl_class.Location = new System.Drawing.Point(197, 56);
             this.lbl_class.Name = "lbl_class";
-            this.lbl_class.Size = new System.Drawing.Size(0, 26);
+            this.lbl_class.Size = new System.Drawing.Size(54, 26);
             this.lbl_class.TabIndex = 5;
+            this.lbl_class.Text = "Class";
+            this.lbl_class.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_race
             // 
@@ -116,7 +118,7 @@
             this.lbl_race.BackColor = System.Drawing.Color.Transparent;
             this.lbl_race.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_race.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lbl_race.Location = new System.Drawing.Point(310, 19);
+            this.lbl_race.Location = new System.Drawing.Point(155, 98);
             this.lbl_race.Name = "lbl_race";
             this.lbl_race.Size = new System.Drawing.Size(0, 20);
             this.lbl_race.TabIndex = 21;
@@ -137,7 +139,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label22, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.lbl_spec, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.lbl_mana, 1, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(61, 192);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(61, 182);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -211,11 +213,11 @@
             // 
             // img_class
             // 
-            this.img_class.Image = global::Arm.ICON.Warrior;
-            this.img_class.Location = new System.Drawing.Point(116, 49);
+            this.img_class.BackgroundImage = global::Arm.ICON.Hunter;
+            this.img_class.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.img_class.Location = new System.Drawing.Point(159, 50);
             this.img_class.Name = "img_class";
             this.img_class.Size = new System.Drawing.Size(32, 32);
-            this.img_class.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.img_class.TabIndex = 26;
             this.img_class.TabStop = false;
             // 
@@ -227,12 +229,12 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(412, 626);
             this.Controls.Add(this.img_class);
+            this.Controls.Add(this.lbl_class);
             this.Controls.Add(this.team3);
             this.Controls.Add(this.team2);
             this.Controls.Add(this.team1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lbl_race);
-            this.Controls.Add(this.lbl_class);
             this.Controls.Add(this.lbl_name);
             this.Name = "viewer";
             this.Text = "Form1";
