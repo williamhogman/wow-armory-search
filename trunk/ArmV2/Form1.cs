@@ -52,20 +52,10 @@ namespace Arm
              lbl_hp.Text = reader.GetAttribute("effective");
 
            reader.ReadToFollowing("secondBar");
-           if ( reader.GetAttribute("type") == "m")
-           {
-               lbl_mana.Text = reader.GetAttribute("effective");
-           }
-           else if (reader.GetAttribute("type") == "r") {
-               lbl_etype.Text = "Rage";
-               lbl_mana.Text = "100";
-           }
-
-           else if (reader.GetAttribute("type") == "e")
-           {
-               lbl_etype.Text = "Energy";
-               lbl_mana.Text = "100";
-           }
+            string ene_type=reader.GetAttribute("type");
+            string ene_mana=reader.GetAttribute("effective");
+           //Display Mana
+            Mana_Display(ene_type, ene_mana);
 
        reader = XmlReader.Create("armory.xml", settings);
        try
@@ -93,6 +83,25 @@ namespace Arm
 
 
 
+        }
+
+        private void Mana_Display(string ene_type, string ene_mana)
+        {
+            if (ene_type == "m")
+            {
+                lbl_mana.Text = ene_mana;
+            }
+            else if (ene_type == "r")
+            {
+                lbl_etype.Text = "Rage";
+                lbl_mana.Text = "100";
+            }
+
+            else if (ene_type == "e")
+            {
+                lbl_etype.Text = "Energy";
+                lbl_mana.Text = "100";
+            }
         }
 
         private  void Talents(XmlReaderSettings settings)
