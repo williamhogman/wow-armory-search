@@ -46,6 +46,7 @@ namespace Arm
            lbl_name.Text = reader.GetAttribute("name");
            lbl_class.Text = reader.GetAttribute("class");
            lbl_race.Text = reader.GetAttribute("race");
+           img_class.BackgroundImage = Class_Icon(reader.GetAttribute("class"));
 
              reader.ReadToFollowing("health");
              lbl_hp.Text = reader.GetAttribute("effective");
@@ -92,6 +93,7 @@ namespace Arm
 
             lbl_spec.Text=t1+"/"+t2+"/"+t3;
 
+       
 
       
         }
@@ -163,7 +165,32 @@ namespace Arm
             return ret;
             }
 
-       
+
+        public Image Class_Icon(string classname) {
+
+            switch (classname) {
+
+                case "Druid": return Arm.ICON.Druid; break;
+
+                case "Hunter": return Arm.ICON.Hunter; break;
+
+                case "Mage": return Arm.ICON.Mage; break;
+
+                case "Paladin": return Arm.ICON.Paladin; break;
+
+                case "Priest": return Arm.ICON.Priest; break;
+
+                case "Rogue": return Arm.ICON.Rogue; break;
+
+                case "Shaman": return Arm.ICON.Shaman; break;
+
+                case "Warlock": return Arm.ICON.Warlock; break;
+
+                case "Warrior": return Arm.ICON.Warrior; break;
+                            }
+
+            return Arm.ICON.Warrior;
+        }
                     
 
         }

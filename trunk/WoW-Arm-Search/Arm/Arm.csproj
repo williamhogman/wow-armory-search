@@ -56,11 +56,21 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ICON.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICON.resx</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <SubType>Designer</SubType>
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ICON.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ICON.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -106,6 +116,15 @@
   <ItemGroup>
     <Content Include="armory.xml" />
     <Content Include="COPYING.txt" />
+    <None Include="images\icons\class\Warrior.png" />
+    <None Include="images\icons\class\Warlock.gif" />
+    <None Include="images\icons\class\Shaman.gif" />
+    <None Include="images\icons\class\Rogue.gif" />
+    <None Include="images\icons\class\Priest.gif" />
+    <None Include="images\icons\class\Paladin.gif" />
+    <None Include="images\icons\class\Mage.gif" />
+    <None Include="images\icons\class\Hunter.gif" />
+    <None Include="images\icons\class\Druid.gif" />
     <None Include="images\Viewer_Back.jpg" />
     <None Include="images\arena_backround.jpg" />
   </ItemGroup>

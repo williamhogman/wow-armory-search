@@ -3,160 +3,116 @@
 
 <page globalSearch="1" lang="en_gb" requestUrl="/character-sheet.xml">
   <characterInfo>
-    <character battleGroup="Blackout" charUrl="r=Aggramar&amp;n=Skalli" class="Hunter" classId="3" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Carebear Club" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" lastModified="14 November 2007" level="70" name="Skalli" race="Dwarf" raceId="3" realm="Aggramar" title="Field Marshal %s">
-      <arenaTeams>
-        <arenaTeam battleGroup="Blackout" faction="Alliance" factionId="0" gamesPlayed="26" gamesWon="17" lastSeasonRanking="0" name="JOVNAS IS AMAZING" ranking="1037" rating="2001" realm="Aggramar" realmUrl="b=Blackout&amp;r=Aggramar&amp;ts=2&amp;t=JOVNAS+IS+AMAZING&amp;ff=realm&amp;fv=Aggramar&amp;select=JOVNAS+IS+AMAZING" seasonGamesPlayed="274" seasonGamesWon="156" size="2" url="r=Aggramar&amp;ts=2&amp;t=JOVNAS+IS+AMAZING&amp;select=JOVNAS+IS+AMAZING">
-          <emblem background="ff497687" borderColor="ffff1bcd" borderStyle="4" iconColor="ffff13e1" iconStyle="90"/>
-          <members>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Hannesorz" class="Paladin" classId="2" gamesPlayed="7" gamesWon="3" gender="Male" genderId="0" guild="Deeprun Pest Control" guildId="1270" guildUrl="r=Aggramar&amp;n=Deeprun+Pest+Control&amp;p=1" name="Hannesorz" race="Human" raceId="1" seasonGamesPlayed="16" seasonGamesWon="7" teamRank="0"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Discover" class="Paladin" classId="2" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Needs a hug" guildId="1133889" guildUrl="r=Aggramar&amp;n=Needs+a+hug&amp;p=1" name="Discover" race="Dwarf" raceId="3" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Discover" class="Paladin" classId="2" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Needs a hug" guildId="1133889" guildUrl="r=Aggramar&amp;n=Needs+a+hug&amp;p=1" name="Discover" race="Dwarf" raceId="3" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Skalli" class="Hunter" classId="3" gamesPlayed="26" gamesWon="17" gender="Male" genderId="0" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Skalli" race="Dwarf" raceId="3" seasonGamesPlayed="26" seasonGamesWon="17" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Blackbeard" class="Paladin" classId="2" gamesPlayed="26" gamesWon="17" gender="Male" genderId="0" guild="Merged" guildId="801888" guildUrl="r=Aggramar&amp;n=Merged&amp;p=1" name="Blackbeard" race="Human" raceId="1" seasonGamesPlayed="26" seasonGamesWon="17" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Discover" class="Paladin" classId="2" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Discover" race="Dwarf" raceId="3" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
-          </members>
-        </arenaTeam>
-        <arenaTeam battleGroup="Blackout" faction="Alliance" factionId="0" gamesPlayed="3" gamesWon="3" lastSeasonRanking="0" name="As intended" ranking="116" rating="2180" realm="Aggramar" realmUrl="b=Blackout&amp;r=Aggramar&amp;ts=3&amp;t=As+intended&amp;ff=realm&amp;fv=Aggramar&amp;select=As+intended" seasonGamesPlayed="276" seasonGamesWon="164" size="3" url="r=Aggramar&amp;ts=3&amp;t=As+intended&amp;select=As+intended">
-          <emblem background="ff0377e8" borderColor="ff8c4f3b" borderStyle="1" iconColor="ff000000" iconStyle="26"/>
-          <members>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Executorz" class="Warlock" classId="9" gamesPlayed="3" gamesWon="3" gender="Male" genderId="0" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Executorz" race="Gnome" raceId="7" seasonGamesPlayed="258" seasonGamesWon="155" teamRank="0"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Kira" class="Druid" classId="11" gamesPlayed="3" gamesWon="3" gender="Female" genderId="1" guild="Needs a hug" guildId="1133889" guildUrl="r=Aggramar&amp;n=Needs+a+hug&amp;p=1" name="Kira" race="Night Elf" raceId="4" seasonGamesPlayed="19" seasonGamesWon="13" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Hannesorz" class="Paladin" classId="2" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Deeprun Pest Control" guildId="1270" guildUrl="r=Aggramar&amp;n=Deeprun+Pest+Control&amp;p=1" name="Hannesorz" race="Human" raceId="1" seasonGamesPlayed="65" seasonGamesWon="33" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Skalli" class="Hunter" classId="3" gamesPlayed="3" gamesWon="3" gender="Male" genderId="0" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Skalli" race="Dwarf" raceId="3" seasonGamesPlayed="137" seasonGamesWon="81" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Deschantee" class="Priest" classId="5" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Merged" guildId="801888" guildUrl="r=Aggramar&amp;n=Merged&amp;p=1" name="Deschantee" race="Human" raceId="1" seasonGamesPlayed="119" seasonGamesWon="71" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Blackbeard" class="Paladin" classId="2" gamesPlayed="6" gamesWon="3" gender="Male" genderId="0" guild="Merged" guildId="801888" guildUrl="r=Aggramar&amp;n=Merged&amp;p=1" name="Blackbeard" race="Human" raceId="1" seasonGamesPlayed="49" seasonGamesWon="31" teamRank="1"/>
-          </members>
-        </arenaTeam>
-        <arenaTeam battleGroup="Blackout" faction="Alliance" factionId="0" gamesPlayed="5" gamesWon="2" lastSeasonRanking="0" name="The Killjoy" ranking="424" rating="1825" realm="Aggramar" realmUrl="b=Blackout&amp;r=Aggramar&amp;ts=5&amp;t=The+Killjoy&amp;ff=realm&amp;fv=Aggramar&amp;select=The+Killjoy" seasonGamesPlayed="33" seasonGamesWon="26" size="5" url="r=Aggramar&amp;ts=5&amp;t=The+Killjoy&amp;select=The+Killjoy">
-          <emblem background="ff001441" borderColor="ff5c7c46" borderStyle="5" iconColor="ff859e9c" iconStyle="72"/>
-          <members>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Discover" class="Paladin" classId="2" gamesPlayed="5" gamesWon="2" gender="Male" genderId="0" guild="Needs a hug" guildId="1133889" guildUrl="r=Aggramar&amp;n=Needs+a+hug&amp;p=1" name="Discover" race="Dwarf" raceId="3" seasonGamesPlayed="31" seasonGamesWon="26" teamRank="0"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Discover" class="Paladin" classId="2" gamesPlayed="5" gamesWon="2" gender="Male" genderId="0" guild="Needs a hug" guildId="1133889" guildUrl="r=Aggramar&amp;n=Needs+a+hug&amp;p=1" name="Discover" race="Dwarf" raceId="3" seasonGamesPlayed="31" seasonGamesWon="26" teamRank="0"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Discover" class="Paladin" classId="2" gamesPlayed="5" gamesWon="2" gender="Male" genderId="0" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Discover" race="Dwarf" raceId="3" seasonGamesPlayed="31" seasonGamesWon="26" teamRank="0"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Eggy" class="Mage" classId="8" gamesPlayed="5" gamesWon="2" gender="Male" genderId="0" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Eggy" race="Human" raceId="1" seasonGamesPlayed="31" seasonGamesWon="26" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Silqz" class="Rogue" classId="4" gamesPlayed="5" gamesWon="2" gender="Male" genderId="0" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Silqz" race="Night Elf" raceId="4" seasonGamesPlayed="31" seasonGamesWon="26" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Heffenbel" class="Priest" classId="5" gamesPlayed="5" gamesWon="2" gender="Male" genderId="0" guild="Soldiers of Azeroth" guildId="608" guildUrl="r=Aggramar&amp;n=Soldiers+of+Azeroth&amp;p=1" name="Heffenbel" race="Dwarf" raceId="3" seasonGamesPlayed="31" seasonGamesWon="26" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Blackbeard" class="Paladin" classId="2" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Merged" guildId="801888" guildUrl="r=Aggramar&amp;n=Merged&amp;p=1" name="Blackbeard" race="Human" raceId="1" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Skalli" class="Hunter" classId="3" gamesPlayed="5" gamesWon="2" gender="Male" genderId="0" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Skalli" race="Dwarf" raceId="3" seasonGamesPlayed="31" seasonGamesWon="26" teamRank="1"/>
-          </members>
-        </arenaTeam>
-      </arenaTeams>
-    </character>
+    <character battleGroup="Blackout" charUrl="r=Aggramar&amp;n=Athar" class="Warrior" classId="1" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Young And Foolish" guildUrl="r=Aggramar&amp;n=Young+And+Foolish&amp;p=1" lastModified="14 November 2007" level="53" name="Athar" race="Gnome" raceId="7" realm="Aggramar" title=""/>
     <characterTab>
-      <talentSpec treeOne="0" treeThree="17" treeTwo="44"/>
+      <talentSpec treeOne="41" treeThree="0" treeTwo="3"/>
       <buffs>
-        <spell effect="Regenerating mana." icon="ability_hunter_aspectoftheviper" name="Aspect of the Viper"/>
-        <spell effect="Gives a 35% chance of ignoring spell interruption when damaged." icon="spell_holy_mindsooth" name="Concentration Aura"/>
-        <spell effect="Increases attack power by 125." icon="ability_trueshot" name="Trueshot Aura"/>
+        <spell effect="Allows for acquisition of Scourgestones on behalf of the Argent Dawn." icon="inv_jewelry_talisman_07" name="Argent Dawn Commission"/>
       </buffs>
       <debuffs/>
       <pvp>
-        <lifetimehonorablekills value="104544"/>
-        <arenacurrency value="5000"/>
+        <lifetimehonorablekills value="1033"/>
+        <arenacurrency value="0"/>
       </pvp>
       <professions>
-        <skill key="engineering" max="300" name="Engineering" value="300"/>
-        <skill key="skinning" max="375" name="Skinning" value="375"/>
+        <skill key="enchanting" max="300" name="Enchanting" value="295"/>
+        <skill key="mining" max="300" name="Mining" value="230"/>
       </professions>
-      <title value="Field Marshal %s"/>
-      <knownTitles>
-        <title value="Field Marshal %s"/>
-        <title value="Duelist %s"/>
-        <title value="Justicar %s"/>
-      </knownTitles>
+      <title value=""/>
+      <knownTitles/>
       <characterBars>
-        <health effective="12934"/>
-        <secondBar casting="0" effective="6103" notCasting="78" type="m"/>
+        <health effective="3291"/>
+        <secondBar casting="-1" effective="100" notCasting="-1" perFive="-1" type="r"/>
       </characterBars>
       <baseStats>
-        <strength attack="56" base="66" block="-1" effective="66"/>
-        <agility armor="984" attack="482" base="147" critHitPercent="10.77" effective="492"/>
-        <stamina base="111" effective="822" health="8040" petBonus="247"/>
-        <intellect base="76" critHitPercent="6.10" effective="200" mana="2720" petBonus="-1"/>
-        <spirit base="82" effective="82" healthRegen="14" manaRegen="79"/>
-        <armor base="6533" effective="6533" percent="38.23" petBonus="2287"/>
+        <strength attack="408" base="99" block="10" effective="214"/>
+        <agility armor="182" attack="-1" base="73" critHitPercent="6.37" effective="91"/>
+        <stamina base="95" effective="218" health="2000" petBonus="-1"/>
+        <intellect base="32" critHitPercent="-1.00" effective="32" mana="-1" petBonus="-1"/>
+        <spirit base="41" effective="41" healthRegen="25" manaRegen="-1"/>
+        <armor base="2993" effective="3083" percent="38.60" petBonus="-1"/>
       </baseStats>
       <resistances>
-        <arcane petBonus="0" value="0"/>
-        <fire petBonus="0" value="0"/>
-        <frost petBonus="4" value="10"/>
-        <holy petBonus="0" value="0"/>
-        <nature petBonus="0" value="0"/>
-        <shadow petBonus="0" value="0"/>
+        <arcane petBonus="-1" value="10"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
       </resistances>
       <melee>
-        <mainHandWeaponSkill rating="0" value="350"/>
-        <offHandWeaponSkill rating="0" value="0"/>
-        <mainHandDamage dps="230.4" max="922" min="737" percent="0" speed="3.60"/>
-        <offHandDamage dps="52.0" max="104" min="103" percent="0" speed="2.00"/>
-        <mainHandSpeed hastePercent="0.00" hasteRating="0" value="3.60"/>
-        <offHandSpeed hastePercent="0.00" hasteRating="0" value="2.00"/>
-        <power base="678" effective="1449" increasedDps="103.0"/>
-        <hitRating increasedHitPercent="2.16" value="34"/>
-        <critChance percent="21.77" plusPercent="11.01" rating="243"/>
+        <mainHandWeaponSkill rating="0" value="262"/>
+        <offHandWeaponSkill rating="0" value="262"/>
+        <mainHandDamage dps="77.6" max="236" min="183" percent="0" speed="2.70"/>
+        <offHandDamage dps="39.1" max="75" min="57" percent="0" speed="1.70"/>
+        <mainHandSpeed hastePercent="0.00" hasteRating="0" value="2.70"/>
+        <offHandSpeed hastePercent="0.00" hasteRating="0" value="1.70"/>
+        <power base="567" effective="635" increasedDps="45.0"/>
+        <hitRating increasedHitPercent="0.00" value="0"/>
+        <critChance percent="9.91" plusPercent="0.66" rating="8"/>
       </melee>
       <ranged>
-        <weaponSkill rating="0" value="350"/>
-        <damage dps="278.3" max="803" min="697" percent="0" speed="2.70"/>
-        <speed hastePercent="0.00" hasteRating="0" value="2.70"/>
-        <power base="783" effective="1660" increasedDps="118.0" petAttack="365.20" petSpell="213.64"/>
-        <hitRating increasedHitPercent="2.16" value="34"/>
-        <critChance percent="28.04" plusPercent="12.28" rating="271"/>
+        <weaponSkill rating="0" value="163"/>
+        <damage dps="35.4" max="88" min="61" percent="0" speed="2.10"/>
+        <speed hastePercent="0.00" hasteRating="0" value="2.10"/>
+        <power base="134" effective="202" increasedDps="14.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="0.00" value="0"/>
+        <critChance percent="2.95" plusPercent="0.66" rating="8"/>
       </ranged>
       <spell>
         <bonusDamage>
-          <arcane value="0"/>
-          <fire value="0"/>
-          <frost value="0"/>
-          <holy value="0"/>
-          <nature value="0"/>
-          <shadow value="0"/>
+          <arcane value="4"/>
+          <fire value="4"/>
+          <frost value="4"/>
+          <holy value="4"/>
+          <nature value="4"/>
+          <shadow value="4"/>
           <petBonus attack="-1" damage="-1" fromType=""/>
         </bonusDamage>
-        <bonusHealing value="0"/>
+        <bonusHealing value="11"/>
         <hitRating increasedHitPercent="0.00" value="0"/>
         <critChance rating="0">
-          <arcane percent="6.10"/>
-          <fire percent="6.10"/>
-          <frost percent="6.10"/>
-          <holy percent="6.10"/>
-          <nature percent="6.10"/>
-          <shadow percent="6.10"/>
+          <arcane percent="0.00"/>
+          <fire percent="0.00"/>
+          <frost percent="0.00"/>
+          <holy percent="0.00"/>
+          <nature percent="0.00"/>
+          <shadow percent="0.00"/>
         </critChance>
         <penetration value="0"/>
-        <manaRegen casting="0.00" notCasting="78.00"/>
+        <manaRegen casting="0.00" notCasting="0.00"/>
       </spell>
       <defenses>
-        <armor base="6533" effective="6533" percent="38.23" petBonus="2287"/>
-        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="350.00"/>
-        <dodge increasePercent="0.00" percent="14.23" rating="0"/>
-        <parry increasePercent="0.00" percent="5.00" rating="0"/>
-        <block increasePercent="0.00" percent="0.00" rating="0"/>
-        <resilience damagePercent="18.16" hitPercent="9.08" value="358.00"/>
+        <armor base="2993" effective="3083" percent="38.60" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="4" rating="6" value="261.00"/>
+        <dodge increasePercent="0.00" percent="5.20" rating="0"/>
+        <parry increasePercent="1.54" percent="6.54" rating="20"/>
+        <block increasePercent="0.00" percent="5.00" rating="0"/>
+        <resilience damagePercent="0.00" hitPercent="0.00" value="0.00"/>
       </defenses>
       <items>
-        <item durability="61" gem0Id="25896" gem1Id="31863" gem2Id="0" icon="inv_helmet_09" id="31962" maxDurability="85" permanentenchant="3003" randomPropertiesId="0" seed="0" slot="0"/>
-        <item durability="0" gem0Id="33782" gem1Id="0" gem2Id="0" icon="inv_jewelry_necklace_36" id="33066" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="1"/>
-        <item durability="69" gem0Id="31863" gem1Id="31868" gem2Id="0" icon="inv_shoulder_29" id="31964" maxDurability="85" permanentenchant="2986" randomPropertiesId="0" seed="0" slot="2"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_black_01" id="4333" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="49216262" slot="3"/>
-        <item durability="91" gem0Id="24033" gem1Id="24033" gem2Id="24033" icon="inv_chest_chain_11" id="31960" maxDurability="140" permanentenchant="2659" randomPropertiesId="0" seed="0" slot="4"/>
-        <item durability="38" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_20" id="32797" maxDurability="50" permanentenchant="0" randomPropertiesId="0" seed="0" slot="5"/>
-        <item durability="70" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_mail_15" id="31963" maxDurability="105" permanentenchant="3013" randomPropertiesId="0" seed="0" slot="6"/>
-        <item durability="35" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_plate_06" id="32785" maxDurability="70" permanentenchant="2649" randomPropertiesId="0" seed="0" slot="7"/>
-        <item durability="34" gem0Id="31863" gem1Id="0" gem2Id="0" icon="inv_bracer_16" id="32809" maxDurability="50" permanentenchant="2649" randomPropertiesId="0" seed="0" slot="8"/>
-        <item durability="25" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_gauntlets_11" id="31961" maxDurability="50" permanentenchant="2564" randomPropertiesId="0" seed="0" slot="9"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_bag_28_halloween" id="34075" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="-2021411102" slot="10"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_60" id="33057" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="11"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_trinketpvp_01" id="28237" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="12"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_talisman_10" id="25829" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="13"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_18" id="29382" maxDurability="0" permanentenchant="368" randomPropertiesId="0" seed="0" slot="14"/>
-        <item durability="118" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_axe_68" id="31966" maxDurability="120" permanentenchant="2670" randomPropertiesId="0" seed="0" slot="15"/>
-        <item durability="52" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_crossbow_10" id="28294" maxDurability="90" permanentenchant="2724" randomPropertiesId="0" seed="0" slot="17"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_guildtabard_01" id="5976" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="18"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_ammo_arrow_02" id="31949" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="-1"/>
+        <item durability="47" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_helmet_20" id="20640" maxDurability="70" permanentenchant="0" randomPropertiesId="0" seed="1512237366" slot="0"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_necklace_02" id="9641" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="1105592876" slot="1"/>
+        <item durability="51" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shoulder_01" id="9476" maxDurability="80" permanentenchant="0" randomPropertiesId="0" seed="562816514" slot="2"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_red_01" id="2575" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="1677095290" slot="3"/>
+        <item durability="77" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_chest_wolf" id="14924" maxDurability="115" permanentenchant="908" randomPropertiesId="1223" seed="1661797356" slot="4"/>
+        <item durability="33" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_15" id="10798" maxDurability="45" permanentenchant="0" randomPropertiesId="0" seed="785693854" slot="5"/>
+        <item durability="60" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_03" id="10330" maxDurability="90" permanentenchant="1843" randomPropertiesId="0" seed="1689173502" slot="6"/>
+        <item durability="38" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_plate_06" id="14911" maxDurability="55" permanentenchant="929" randomPropertiesId="1206" seed="1370434540" slot="7"/>
+        <item durability="39" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_06" id="19581" maxDurability="55" permanentenchant="2647" randomPropertiesId="0" seed="0" slot="8"/>
+        <item durability="32" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_gauntlets_26" id="9640" maxDurability="45" permanentenchant="904" randomPropertiesId="1563" seed="-1893128978" slot="9"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_05" id="20964" maxDurability="0" permanentenchant="0" randomPropertiesId="687" seed="1144205494" slot="10"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_02" id="11999" maxDurability="0" permanentenchant="0" randomPropertiesId="187" seed="-1973238240" slot="11"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_talisman_07" id="12846" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="571353148" slot="12"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_drink_01" id="20130" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="676488296" slot="13"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_21" id="18441" maxDurability="0" permanentenchant="884" randomPropertiesId="0" seed="0" slot="14"/>
+        <item durability="61" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_mace_11" id="9639" maxDurability="90" permanentenchant="1894" randomPropertiesId="0" seed="931905981" slot="15"/>
+        <item durability="61" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_sword_45" id="9379" maxDurability="90" permanentenchant="1894" randomPropertiesId="0" seed="-2071209298" slot="16"/>
+        <item durability="47" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_rifle_08" id="8188" maxDurability="65" permanentenchant="30" randomPropertiesId="0" seed="991407131" slot="17"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_18" id="23192" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="888155566" slot="18"/>
       </items>
     </characterTab>
   </characterInfo>
 </page>
-="18"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_ammo_arrow_02" id="31949" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" sl
+17"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" i

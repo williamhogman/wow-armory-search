@@ -8,3 +8,4 @@ D:\arm\Arm\bin\Debug\Arm.exe
 D:\arm\Arm\bin\Debug\Arm.pdb
 D:\arm\Arm\obj\Debug\Arm.exe
 D:\arm\Arm\obj\Debug\Arm.pdb
+D:\arm\Arm\obj\Debug\Arm.ICON.resources
