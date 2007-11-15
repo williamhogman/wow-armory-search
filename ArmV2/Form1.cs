@@ -1,7 +1,7 @@
 ﻿/* Copyright Nameless Gnome
  * This file is part of WoW Armory Search.
 
-    WoW Armory Search is free software: you can redistribute it and/or modify
+    Foobar is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
@@ -46,7 +46,8 @@ namespace Arm
            lbl_name.Text = reader.GetAttribute("name");
            lbl_class.Text = reader.GetAttribute("class");
            lbl_race.Text = reader.GetAttribute("race");
-           img_class.Image=Class_Image(reader.GetAttribute("class"));
+           img_class.BackgroundImage = Class_Icon(reader.GetAttribute("class"));
+
              reader.ReadToFollowing("health");
              lbl_hp.Text = reader.GetAttribute("effective");
 
@@ -92,6 +93,7 @@ namespace Arm
 
             lbl_spec.Text=t1+"/"+t2+"/"+t3;
 
+       
 
       
         }
@@ -164,27 +166,32 @@ namespace Arm
             }
 
 
+        public Image Class_Icon(string classname) {
 
-        public Image Class_Image(string classname) {
+            switch (classname) {
 
-            switch (classname)
-            {
                 case "Druid": return Arm.ICON.Druid; break;
+
                 case "Hunter": return Arm.ICON.Hunter; break;
+
                 case "Mage": return Arm.ICON.Mage; break;
+
                 case "Paladin": return Arm.ICON.Paladin; break;
+
                 case "Priest": return Arm.ICON.Priest; break;
+
                 case "Rogue": return Arm.ICON.Rogue; break;
+
                 case "Shaman": return Arm.ICON.Shaman; break;
+
                 case "Warlock": return Arm.ICON.Warlock; break;
+
                 case "Warrior": return Arm.ICON.Warrior; break;
+                            }
 
-
-                default: return Arm.ICON.Warrior; break;
-            }
-
+            return Arm.ICON.Warrior;
         }
-
+                    
 
         }
 
