@@ -54,11 +54,23 @@ namespace Arm
        lbl_mana.Text =    reader.GetAttribute("effective");
 
        reader = XmlReader.Create("armory.xml", settings);
-            reader.ReadToFollowing("arenaTeams");
-            // Arena Teams to be Phrased 3 times at max
-  team1.SetToTeam        (ArenaTeam_ext(reader)); // 2v2
-     team_2.SetToTeam     (ArenaTeam_ext(reader)); // 3v3
-          team3.SetToTeam(ArenaTeam_ext(reader)); // 3v3
+       try
+       {
+           reader.ReadToFollowing("arenaTeams");
+           // Arena Teams to be Phrased 3 times at max
+           team1.SetToTeam(ArenaTeam_ext(reader)); // 2v2
+           team2.SetToTeam(ArenaTeam_ext(reader)); // 3v3
+           team3.SetToTeam(ArenaTeam_ext(reader)); // 3v3
+        
+       } catch (Exception ex) {
+           if (ex.Message.Contains("end of file"))
+           {
+               MessageBox.Show("No Arena Teams");
+               team1.Hide();
+               team2.Hide();
+               team3.Hide();
+           }
+       }
      Talents(settings);
 
 

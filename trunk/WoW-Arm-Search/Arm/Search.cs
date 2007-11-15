@@ -20,7 +20,7 @@ namespace Arm
 
         private void btn_go_Click(object sender, EventArgs e)
         {
-    Save(  Download_Char("Tarendor", "Aggramar"));
+    Save(  Download_Char(tbx_name.Text, tbx_rel.Text));
       viewer View_frm = new viewer();     
 
         View_frm.Show();
@@ -43,8 +43,7 @@ namespace Arm
         }
 
         public string Download_Char(string name,string server){
-         //   return Arm_dl("http://wowarmory.com/character-sheet.xml?r="+server+"&n="+name);
-            return Arm_dl("http://wowarmory.com/character-sheet.xml?r=Tichondrius&n=Hammura");
+            return Arm_dl("http://eu.wowarmory.com/character-sheet.xml?r="+server+"&n="+name);
         }
 
 

@@ -41,7 +41,7 @@
             this.label22 = new System.Windows.Forms.Label();
             this.lbl_spec = new System.Windows.Forms.Label();
             this.team3 = new Arm.Team_Disp();
-            this.team_2 = new Arm.Team_Disp();
+            this.team2 = new Arm.Team_Disp();
             this.team1 = new Arm.Team_Disp();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -182,10 +182,10 @@
             // 
             // team_2
             // 
-            this.team_2.Location = new System.Drawing.Point(12, 385);
-            this.team_2.Name = "team_2";
-            this.team_2.Size = new System.Drawing.Size(386, 104);
-            this.team_2.TabIndex = 24;
+            this.team2.Location = new System.Drawing.Point(12, 385);
+            this.team2.Name = "team_2";
+            this.team2.Size = new System.Drawing.Size(386, 104);
+            this.team2.TabIndex = 24;
             // 
             // team1
             // 
@@ -200,7 +200,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(412, 626);
             this.Controls.Add(this.team3);
-            this.Controls.Add(this.team_2);
+            this.Controls.Add(this.team2);
             this.Controls.Add(this.team1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lbl_race);
@@ -231,7 +231,7 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label lbl_spec;
         private Team_Disp team1;
-        private Team_Disp team_2;
+        private Team_Disp team2;
         private Team_Disp team3;
     }
 }
