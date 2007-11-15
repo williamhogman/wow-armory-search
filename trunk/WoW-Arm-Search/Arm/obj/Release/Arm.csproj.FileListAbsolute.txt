@@ -1,5 +1,0 @@
-D:\arm\Arm\obj\Release\ResolveAssemblyReference.cache
-D:\arm\Arm\obj\Release\Arm.viewer.resources
-D:\arm\Arm\obj\Release\Arm.Search.resources
-D:\arm\Arm\obj\Release\Arm.Team_Disp.resources
-D:\arm\Arm\obj\Release\Arm.csproj.GenerateResource.Cache
