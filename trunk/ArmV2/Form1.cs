@@ -75,9 +75,9 @@ namespace Arm
                team3.Hide();
            }
        }
-     Talents(settings);
 
-
+            //TODO: Display the Talents Armory Style (Holy)
+            Talents(settings);
             // Rescillance Stat
             Resc(settings);
 
@@ -115,9 +115,15 @@ namespace Arm
 
             lbl_spec.Text=t1+"/"+t2+"/"+t3;
 
-       
+            Talent_Tree_Logic();
 
       
+        }
+
+        private void Talent_Tree_Logic()
+        {
+            //TALENT LOGIC
+            lbl_spec.Text += " (NYI)";
         }
 
         private  void Resc(XmlReaderSettings settings)
