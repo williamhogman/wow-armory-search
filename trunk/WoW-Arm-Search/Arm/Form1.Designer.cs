@@ -100,7 +100,9 @@
             // lbl_class
             // 
             this.lbl_class.AutoSize = true;
+            this.lbl_class.BackColor = System.Drawing.Color.Transparent;
             this.lbl_class.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_class.ForeColor = System.Drawing.Color.DarkGreen;
             this.lbl_class.Location = new System.Drawing.Point(159, 40);
             this.lbl_class.Name = "lbl_class";
             this.lbl_class.Size = new System.Drawing.Size(0, 26);
@@ -109,8 +111,10 @@
             // lbl_race
             // 
             this.lbl_race.AutoSize = true;
+            this.lbl_race.BackColor = System.Drawing.Color.Transparent;
             this.lbl_race.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_race.Location = new System.Drawing.Point(308, 9);
+            this.lbl_race.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lbl_race.Location = new System.Drawing.Point(310, 19);
             this.lbl_race.Name = "lbl_race";
             this.lbl_race.Size = new System.Drawing.Size(0, 20);
             this.lbl_race.TabIndex = 21;

@@ -65,7 +65,7 @@ namespace Arm
        } catch (Exception ex) {
            if (ex.Message.Contains("end of file"))
            {
-               MessageBox.Show("No Arena Teams");
+            
                team1.Hide();
                team2.Hide();
                team3.Hide();
