@@ -1,0 +1,5 @@
+TODO LIST
+
+1. Dont Display Mana for Rogues Warriors
+2. Cacheing
+3. Updating of Cached Files
