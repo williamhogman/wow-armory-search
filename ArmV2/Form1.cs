@@ -52,7 +52,20 @@ namespace Arm
              lbl_hp.Text = reader.GetAttribute("effective");
 
            reader.ReadToFollowing("secondBar");
-       lbl_mana.Text =    reader.GetAttribute("effective");
+           if ( reader.GetAttribute("type") == "m")
+           {
+               lbl_mana.Text = reader.GetAttribute("effective");
+           }
+           else if (reader.GetAttribute("type") == "r") {
+               lbl_etype.Text = "Rage";
+               lbl_mana.Text = "100";
+           }
+
+           else if (reader.GetAttribute("type") == "e")
+           {
+               lbl_etype.Text = "Energy";
+               lbl_mana.Text = "100";
+           }
 
        reader = XmlReader.Create("armory.xml", settings);
        try

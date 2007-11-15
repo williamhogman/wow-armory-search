@@ -32,7 +32,7 @@
             this.lbl_name = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_hp = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_etype = new System.Windows.Forms.Label();
             this.lbl_mana = new System.Windows.Forms.Label();
             this.lbl_class = new System.Windows.Forms.Label();
             this.lbl_race = new System.Windows.Forms.Label();
@@ -79,15 +79,15 @@
             this.lbl_hp.Size = new System.Drawing.Size(0, 29);
             this.lbl_hp.TabIndex = 2;
             // 
-            // label4
+            // lbl_etype
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 50);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 18);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Mana";
+            this.lbl_etype.AutoSize = true;
+            this.lbl_etype.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_etype.Location = new System.Drawing.Point(3, 50);
+            this.lbl_etype.Name = "lbl_etype";
+            this.lbl_etype.Size = new System.Drawing.Size(45, 18);
+            this.lbl_etype.TabIndex = 3;
+            this.lbl_etype.Text = "Mana";
             // 
             // lbl_mana
             // 
@@ -133,7 +133,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.lbl_hp, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lbl_etype, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label20, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.lbl_resc, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.label22, 3, 1);
@@ -252,7 +252,7 @@
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl_hp;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl_etype;
         private System.Windows.Forms.Label lbl_mana;
         private System.Windows.Forms.Label lbl_class;
         private System.Windows.Forms.Label lbl_race;
