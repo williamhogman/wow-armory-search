@@ -66,5 +66,12 @@ namespace Arm.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap Viewer_Back {
+            get {
+                object obj = ResourceManager.GetObject("Viewer_Back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

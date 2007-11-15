@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(viewer));
             this.lbl_name = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_hp = new System.Windows.Forms.Label();
@@ -49,7 +50,9 @@
             // lbl_name
             // 
             this.lbl_name.AutoSize = true;
+            this.lbl_name.BackColor = System.Drawing.Color.Transparent;
             this.lbl_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_name.ForeColor = System.Drawing.Color.DarkGreen;
             this.lbl_name.Location = new System.Drawing.Point(158, 9);
             this.lbl_name.Name = "lbl_name";
             this.lbl_name.Size = new System.Drawing.Size(0, 31);
@@ -175,6 +178,8 @@
             // 
             // team3
             // 
+            this.team3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("team3.BackgroundImage")));
+            this.team3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.team3.Location = new System.Drawing.Point(14, 513);
             this.team3.Name = "team3";
             this.team3.Size = new System.Drawing.Size(386, 104);
@@ -182,6 +187,8 @@
             // 
             // team2
             // 
+            this.team2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("team2.BackgroundImage")));
+            this.team2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.team2.Location = new System.Drawing.Point(14, 411);
             this.team2.Name = "team2";
             this.team2.Size = new System.Drawing.Size(386, 104);
@@ -189,16 +196,19 @@
             // 
             // team1
             // 
+            this.team1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("team1.BackgroundImage")));
+            this.team1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.team1.Location = new System.Drawing.Point(14, 298);
             this.team1.Name = "team1";
             this.team1.Size = new System.Drawing.Size(386, 104);
             this.team1.TabIndex = 23;
-
             // 
             // viewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Arm.Properties.Resources.Viewer_Back;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(412, 626);
             this.Controls.Add(this.team3);
             this.Controls.Add(this.team2);
