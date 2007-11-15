@@ -1,169 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/layout/character-sheet.xsl"?>
 
-<page globalSearch="1" lang="en_gb" requestUrl="/character-sheet.xml">
+<page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
   <characterInfo>
-    <character battleGroup="Blackout" charUrl="r=Aggramar&amp;n=Tarendor" class="Priest" classId="5" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Is Evil" guildUrl="r=Aggramar&amp;n=Is+Evil&amp;p=1" lastModified="13 November 2007" level="70" name="Tarendor" race="Human" raceId="1" realm="Aggramar" title="Knight">
+    <character battleGroup="Bloodlust" charUrl="r=Tichondrius&amp;n=Hammura" class="Hunter" classId="3" faction="Horde" factionId="1" gender="Male" genderId="0" guildName="Devastating Mind Control" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" lastModified="November 15, 2007" level="70" name="Hammura" race="Troll" raceId="8" realm="Tichondrius" title="General %s">
       <arenaTeams>
-        <arenaTeam battleGroup="Blackout" faction="Alliance" factionId="0" gamesPlayed="19" gamesWon="17" lastSeasonRanking="0" name="Meatballs are LeeT" ranking="0" rating="1724" realm="Aggramar" realmUrl="b=Blackout&amp;r=Aggramar&amp;ts=2&amp;t=Meatballs+are+LeeT&amp;ff=realm&amp;fv=Aggramar&amp;select=Meatballs+are+LeeT" seasonGamesPlayed="19" seasonGamesWon="17" size="2" url="r=Aggramar&amp;ts=2&amp;t=Meatballs+are+LeeT&amp;select=Meatballs+are+LeeT">
-          <emblem background="ff5200b0" borderColor="ffcc00ca" borderStyle="6" iconColor="ffde24e8" iconStyle="67"/>
+        <arenaTeam battleGroup="Bloodlust" faction="Horde" factionId="1" gamesPlayed="10" gamesWon="5" lastSeasonRanking="0" name="SAL BAL HAE YO" ranking="586" rating="1919" realm="Tichondrius" realmUrl="b=Bloodlust&amp;r=Tichondrius&amp;ts=3&amp;t=SAL+BAL+HAE+YO&amp;ff=realm&amp;fv=Tichondrius&amp;select=SAL+BAL+HAE+YO" seasonGamesPlayed="60" seasonGamesWon="44" size="3" url="r=Tichondrius&amp;ts=3&amp;t=SAL+BAL+HAE+YO&amp;select=SAL+BAL+HAE+YO">
+          <emblem background="ff090403" borderColor="ffff1700" borderStyle="3" iconColor="ffff2124" iconStyle="55"/>
           <members>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Tarendor" class="Priest" classId="5" gamesPlayed="19" gamesWon="17" gender="Male" genderId="0" guild="Is Evil" guildId="1206898" guildUrl="r=Aggramar&amp;n=Is+Evil&amp;p=1" name="Tarendor" race="Human" raceId="1" seasonGamesPlayed="19" seasonGamesWon="17" teamRank="0"/>
-
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Humi" class="Warlock" classId="9" gamesPlayed="19" gamesWon="17" gender="Female" genderId="1" guild="Is Evil" guildId="1206898" guildUrl="r=Aggramar&amp;n=Is+Evil&amp;p=1" name="Humi" race="Human" raceId="1" seasonGamesPlayed="19" seasonGamesWon="17" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Drakedog" class="Warlock" classId="9" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Drakedog" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Gubi" class="Warrior" classId="1" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="C H A O S" guildId="73681" guildUrl="r=Tichondrius&amp;n=C+H+A+O+S&amp;p=1" name="Gubi" race="Orc" raceId="2" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Magma" class="Rogue" classId="4" gamesPlayed="10" gamesWon="5" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Magma" race="Undead" raceId="5" seasonGamesPlayed="10" seasonGamesWon="5" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Deux" class="Mage" classId="8" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Deux" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Deux" class="Mage" classId="8" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Deux" race="Undead" raceId="5" seasonGamesPlayed="5" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Deux" class="Mage" classId="8" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Deux" race="Undead" raceId="5" seasonGamesPlayed="5" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Hammura" class="Hunter" classId="3" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Hammura" race="Troll" raceId="8" seasonGamesPlayed="5" seasonGamesWon="3" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Griffis" class="Paladin" classId="2" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Griffis" race="Blood Elf" raceId="10" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Deux" class="Mage" classId="8" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Deux" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
           </members>
         </arenaTeam>
-        <arenaTeam battleGroup="Blackout" faction="Alliance" factionId="0" gamesPlayed="6" gamesWon="2" lastSeasonRanking="0" name="Timmy" ranking="1789" rating="1697" realm="Aggramar" realmUrl="b=Blackout&amp;r=Aggramar&amp;ts=3&amp;t=Timmy&amp;ff=realm&amp;fv=Aggramar&amp;select=Timmy" seasonGamesPlayed="125" seasonGamesWon="68" size="3" url="r=Aggramar&amp;ts=3&amp;t=Timmy&amp;select=Timmy">
-          <emblem background="ff060504" borderColor="ff2b7001" borderStyle="6" iconColor="ffa60012" iconStyle="95"/>
+        <arenaTeam battleGroup="Bloodlust" faction="Horde" factionId="1" gamesPlayed="12" gamesWon="11" lastSeasonRanking="0" name="C A P S L O C K C R E W" ranking="2" rating="2720" realm="Tichondrius" realmUrl="b=Bloodlust&amp;r=Tichondrius&amp;ts=5&amp;t=C+A+P+S+L+O+C+K+C+R+E+W&amp;ff=realm&amp;fv=Tichondrius&amp;select=C+A+P+S+L+O+C+K+C+R+E+W" seasonGamesPlayed="1034" seasonGamesWon="728" size="5" url="r=Tichondrius&amp;ts=5&amp;t=C+A+P+S+L+O+C+K+C+R+E+W&amp;select=C+A+P+S+L+O+C+K+C+R+E+W">
+          <emblem background="fff7000f" borderColor="ffb8000d" borderStyle="2" iconColor="ffe0ddf7" iconStyle="90"/>
           <members>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Tarendor" class="Priest" classId="5" gamesPlayed="6" gamesWon="2" gender="Male" genderId="0" guild="Is Evil" guildId="1206898" guildUrl="r=Aggramar&amp;n=Is+Evil&amp;p=1" name="Tarendor" race="Human" raceId="1" seasonGamesPlayed="122" seasonGamesWon="68" teamRank="0"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Ulle" class="Mage" classId="8" gamesPlayed="3" gamesWon="0" gender="Male" genderId="0" guild="Is Evil" guildId="1206898" guildUrl="r=Aggramar&amp;n=Is+Evil&amp;p=1" name="Ulle" race="Gnome" raceId="7" seasonGamesPlayed="58" seasonGamesWon="27" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Humi" class="Warlock" classId="9" gamesPlayed="6" gamesWon="2" gender="Female" genderId="1" guild="Is Evil" guildId="1206898" guildUrl="r=Aggramar&amp;n=Is+Evil&amp;p=1" name="Humi" race="Human" raceId="1" seasonGamesPlayed="7" seasonGamesWon="3" teamRank="1"/>
-
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Dunehelmm" class="Warrior" classId="1" gamesPlayed="3" gamesWon="2" gender="Male" genderId="0" guildId="0" name="Dunehelmm" race="Human" raceId="1" seasonGamesPlayed="3" seasonGamesWon="2" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Failure" class="Rogue" classId="4" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Carebear Club" guildId="750889" guildUrl="r=Aggramar&amp;n=Carebear+Club&amp;p=1" name="Failure" race="Human" raceId="1" seasonGamesPlayed="54" seasonGamesWon="31" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Inactive" class="Warrior" classId="1" gamesPlayed="12" gamesWon="11" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Inactive" race="Orc" raceId="2" seasonGamesPlayed="1005" seasonGamesWon="714" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Hammura" class="Hunter" classId="3" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Hammura" race="Troll" raceId="8" seasonGamesPlayed="470" seasonGamesWon="333" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Lickerz" class="Shaman" classId="7" gamesPlayed="12" gamesWon="11" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Lickerz" race="Orc" raceId="2" seasonGamesPlayed="60" seasonGamesWon="46" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Helldridge" class="Warlock" classId="9" gamesPlayed="12" gamesWon="11" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Helldridge" race="Undead" raceId="5" seasonGamesPlayed="830" seasonGamesWon="594" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Clicker" class="Paladin" classId="2" gamesPlayed="12" gamesWon="11" gender="Female" genderId="1" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Clicker" race="Blood Elf" raceId="10" seasonGamesPlayed="476" seasonGamesWon="321" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Tichondrius&amp;n=Crysalid" class="Priest" classId="5" gamesPlayed="12" gamesWon="11" gender="Male" genderId="0" guild="Devastating Mind Control" guildId="431804" guildUrl="r=Tichondrius&amp;n=Devastating+Mind+Control&amp;p=1" name="Crysalid" race="Undead" raceId="5" seasonGamesPlayed="49" seasonGamesWon="37" teamRank="1"/>
           </members>
         </arenaTeam>
-        <arenaTeam battleGroup="Blackout" faction="Alliance" factionId="0" gamesPlayed="7" gamesWon="3" lastSeasonRanking="0" name="We Stand" ranking="2018" rating="1522" realm="Aggramar" realmUrl="b=Blackout&amp;r=Aggramar&amp;ts=5&amp;t=We+Stand&amp;ff=realm&amp;fv=Aggramar&amp;select=We+Stand" seasonGamesPlayed="90" seasonGamesWon="46" size="5" url="r=Aggramar&amp;ts=5&amp;t=We+Stand&amp;select=We+Stand">
-          <emblem background="ff000000" borderColor="ffead3ff" borderStyle="4" iconColor="ff9f1e12" iconStyle="89"/>
-          <members>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Darksunrise" class="Druid" classId="11" gamesPlayed="4" gamesWon="3" gender="Male" genderId="0" guild="CURSED" guildId="665552" guildUrl="r=Aggramar&amp;n=CURSED&amp;p=1" name="Darksunrise" race="Night Elf" raceId="4" seasonGamesPlayed="38" seasonGamesWon="20" teamRank="0"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Damian" class="Druid" classId="11" gamesPlayed="3" gamesWon="0" gender="Male" genderId="0" guild="Synchronicity" guildId="946889" guildUrl="r=Aggramar&amp;n=Synchronicity&amp;p=1" name="Damian" race="Night Elf" raceId="4" seasonGamesPlayed="20" seasonGamesWon="10" teamRank="1"/>
-
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Blizzy" class="Warrior" classId="1" gamesPlayed="3" gamesWon="0" gender="Female" genderId="1" guild="Rage of Finlandia" guildId="1521" guildUrl="r=Aggramar&amp;n=Rage+of+Finlandia&amp;p=1" name="Blizzy" race="Night Elf" raceId="4" seasonGamesPlayed="27" seasonGamesWon="15" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Krokus" class="Warlock" classId="9" gamesPlayed="3" gamesWon="0" gender="Male" genderId="0" guild="Trucido Vulgus" guildId="1633" guildUrl="r=Aggramar&amp;n=Trucido+Vulgus&amp;p=1" name="Krokus" race="Human" raceId="1" seasonGamesPlayed="3" seasonGamesWon="0" teamRank="1"/>
-            <character battleGroup="" charUrl="f6" class="Warlock" classId="9" gamesPlayed="4" gamesWon="3" gender="Female" genderId="1" guild="Definition" guildId="675176" guildUrl="r=Aggramar&amp;n=Definition&amp;p=1" name="Mortcia" race="Gnome" raceId="7" seasonGamesPlayed="4" seasonGamesWon="3" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Murker" class="Mage" classId="8" gamesPlayed="4" gamesWon="3" gender="Male" genderId="0" guild="Definition" guildId="675176" guildUrl="r=Aggramar&amp;n=Definition&amp;p=1" name="Murker" race="Human" raceId="1" seasonGamesPlayed="4" seasonGamesWon="3" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Tarendor" class="Priest" classId="5" gamesPlayed="3" gamesWon="0" gender="Male" genderId="0" guild="Is Evil" guildId="1206898" guildUrl="r=Aggramar&amp;n=Is+Evil&amp;p=1" name="Tarendor" race="Human" raceId="1" seasonGamesPlayed="3" seasonGamesWon="0" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Taumaril" class="Paladin" classId="2" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Dude Wheres My Mount" guildId="655521" guildUrl="r=Aggramar&amp;n=Dude+Wheres+My+Mount&amp;p=1" name="Taumaril" race="Human" raceId="1" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
-            <character battleGroup="" charUrl="r=Aggramar&amp;n=Ozzyjunior" class="Paladin" classId="2" gamesPlayed="7" gamesWon="3" gender="Male" genderId="0" guild="Final Equilibrium" guildId="36" guildUrl="r=Aggramar&amp;n=Final+Equilibrium&amp;p=1" name="Ozzyjunior" race="Dwarf" raceId="3" seasonGamesPlayed="7" seasonGamesWon="3" teamRank="1"/>
-          </members>
-        </arenaTeam>
-
       </arenaTeams>
     </character>
     <characterTab>
-      <talentSpec treeOne="28" treeThree="0" treeTwo="33"/>
-      <buffs/>
+      <talentSpec treeOne="0" treeThree="18" treeTwo="43"/>
+      <buffs>
+        <spell effect="Regenerating mana." icon="ability_hunter_aspectoftheviper" name="Aspect of the Viper"/>
+        <spell effect="Increases attack power by 125." icon="ability_trueshot" name="Trueshot Aura"/>
+        <spell effect="Increases flight speed by 280%." icon="ability_mount_wyvern_01" name="Swift Purple Windrider"/>
+        <spell effect="Increases armor by 340, all attributes by 14 and all resistances by 25." icon="spell_nature_giftofthewild" name="Gift of the Wild"/>
+        <spell effect="Increases Stamina by 79." icon="spell_holy_prayeroffortitude" name="Prayer of Fortitude"/>
+        <spell effect="Increases Spirit by 50." icon="spell_holy_prayerofspirit" name="Prayer of Spirit"/>
+        <spell effect="Increases Agility by 35 and critical strike rating by 20.  Battle Elixir." icon="inv_potion_127" name="Major Agility"/>
+      </buffs>
       <debuffs/>
       <pvp>
-        <lifetimehonorablekills value="12324"/>
-        <arenacurrency value="3451"/>
-
+        <lifetimehonorablekills value="99416"/>
+        <arenacurrency value="5000"/>
       </pvp>
       <professions>
-        <skill key="enchanting" max="300" name="Enchanting" value="227"/>
-        <skill key="tailoring" max="375" name="Tailoring" value="358"/>
+        <skill key="alchemy" max="375" name="Alchemy" value="375"/>
+        <skill key="mining" max="375" name="Mining" value="365"/>
       </professions>
-      <title value="Knight"/>
+      <title value="General %s"/>
       <knownTitles>
-        <title value="Knight"/>
-        <title value="Duelist"/>
-
-        <title value="Rival"/>
-        <title value="Challenger"/>
+        <title value="General %s"/>
+        <title value="Duelist %s"/>
+        <title value="Conqueror %s"/>
       </knownTitles>
       <characterBars>
-        <health effective="8761"/>
-        <secondBar casting="82" effective="8550" notCasting="256" type="m"/>
+        <health effective="12131"/>
+        <secondBar casting="6" effective="7618" notCasting="120" type="m"/>
       </characterBars>
       <baseStats>
-        <strength attack="29" base="39" block="-1" effective="39"/>
-
-        <agility armor="90" attack="-1" base="45" critHitPercent="4.98" effective="45"/>
-        <stamina base="58" effective="555" health="5370" petBonus="-1"/>
-        <intellect base="145" critHitPercent="6.41" effective="414" mana="5930" petBonus="-1"/>
-        <spirit base="174" effective="229" healthRegen="17" manaRegen="174"/>
-        <armor base="2048" effective="2048" percent="16.25" petBonus="-1"/>
+        <strength attack="73" base="65" block="-1" effective="83"/>
+        <agility armor="986" attack="483" base="153" critHitPercent="10.79" effective="493"/>
+        <stamina base="109" effective="764" health="7460" petBonus="229"/>
+        <intellect base="73" critHitPercent="7.36" effective="301" mana="4235" petBonus="-1"/>
+        <spirit base="84" effective="152" healthRegen="22" manaRegen="114"/>
+        <armor base="6397" effective="6856" percent="39.37" petBonus="2400"/>
       </baseStats>
       <resistances>
-        <arcane petBonus="-1" value="0"/>
-        <fire petBonus="-1" value="0"/>
-
-        <frost petBonus="-1" value="0"/>
-        <holy petBonus="-1" value="0"/>
-        <nature petBonus="-1" value="0"/>
-        <shadow petBonus="-1" value="0"/>
+        <arcane petBonus="13" value="33"/>
+        <fire petBonus="13" value="33"/>
+        <frost petBonus="13" value="33"/>
+        <holy petBonus="0" value="0"/>
+        <nature petBonus="13" value="33"/>
+        <shadow petBonus="13" value="33"/>
       </resistances>
       <melee>
-        <mainHandWeaponSkill rating="0" value="332"/>
-        <offHandWeaponSkill rating="0" value="-1"/>
-        <mainHandDamage dps="43.6" max="130" min="36" percent="0" speed="1.90"/>
-
-        <offHandDamage dps="0.0" max="0" min="0" percent="0" speed="2.00"/>
-        <mainHandSpeed hastePercent="0.00" hasteRating="0" value="1.90"/>
-        <offHandSpeed hastePercent="0.00" hasteRating="0" value="2.00"/>
-        <power base="29" effective="29" increasedDps="2.0"/>
-        <hitRating increasedHitPercent="0.00" value="0"/>
-        <critChance percent="4.26" plusPercent="0.00" rating="0"/>
+        <mainHandWeaponSkill rating="0" value="350"/>
+        <offHandWeaponSkill rating="0" value="350"/>
+        <mainHandDamage dps="224.4" max="661" min="507" percent="0" speed="2.60"/>
+        <offHandDamage dps="112.3" max="191" min="146" percent="0" speed="1.50"/>
+        <mainHandSpeed hastePercent="0.00" hasteRating="0" value="2.60"/>
+        <offHandSpeed hastePercent="0.00" hasteRating="0" value="1.50"/>
+        <power base="696" effective="1777" increasedDps="126.0"/>
+        <hitRating increasedHitPercent="6.21" value="98"/>
+        <critChance percent="22.34" plusPercent="11.55" rating="255"/>
       </melee>
       <ranged>
         <weaponSkill rating="0" value="350"/>
-
-        <damage dps="167.6" max="414" min="223" percent="0" speed="1.90"/>
-        <speed hastePercent="0.00" hasteRating="0" value="1.90"/>
-        <power base="35" effective="35" increasedDps="2.0" petAttack="-1.00" petSpell="-1.00"/>
-        <hitRating increasedHitPercent="0.00" value="0"/>
-        <critChance percent="4.98" plusPercent="0.00" rating="0"/>
+        <damage dps="306.7" max="854" min="746" percent="0" speed="2.61"/>
+        <speed hastePercent="0.00" hasteRating="0" value="2.61"/>
+        <power base="834" effective="2052" increasedDps="146.0" petAttack="451.44" petSpell="264.09"/>
+        <hitRating increasedHitPercent="6.21" value="98"/>
+        <critChance percent="28.61" plusPercent="12.82" rating="283"/>
       </ranged>
       <spell>
         <bonusDamage>
-          <arcane value="14"/>
-
-          <fire value="14"/>
-          <frost value="14"/>
-          <holy value="14"/>
-          <nature value="14"/>
-          <shadow value="14"/>
+          <arcane value="15"/>
+          <fire value="15"/>
+          <frost value="15"/>
+          <holy value="15"/>
+          <nature value="15"/>
+          <shadow value="15"/>
           <petBonus attack="-1" damage="-1" fromType=""/>
         </bonusDamage>
-        <bonusHealing value="1296"/>
+        <bonusHealing value="15"/>
         <hitRating increasedHitPercent="0.00" value="0"/>
-
-        <critChance rating="4">
-          <arcane percent="6.59"/>
-          <fire percent="6.59"/>
-          <frost percent="6.59"/>
-          <holy percent="10.59"/>
-          <nature percent="6.59"/>
-          <shadow percent="6.59"/>
+        <critChance rating="0">
+          <arcane percent="7.36"/>
+          <fire percent="7.36"/>
+          <frost percent="7.36"/>
+          <holy percent="7.36"/>
+          <nature percent="7.36"/>
+          <shadow percent="7.36"/>
         </critChance>
         <penetration value="0"/>
-
-        <manaRegen casting="82.00" notCasting="256.00"/>
+        <manaRegen casting="6.00" notCasting="120.00"/>
       </spell>
       <defenses>
-        <armor base="2048" effective="2048" percent="16.25" petBonus="-1"/>
+        <armor base="6397" effective="6856" percent="39.37" petBonus="2400"/>
         <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="350.00"/>
-        <dodge increasePercent="0.00" percent="4.98" rating="0"/>
-        <parry increasePercent="0.00" percent="0.00" rating="0"/>
+        <dodge increasePercent="0.63" percent="14.90" rating="12"/>
+        <parry increasePercent="0.00" percent="5.00" rating="0"/>
         <block increasePercent="0.00" percent="0.00" rating="0"/>
-        <resilience damagePercent="11.67" hitPercent="5.83" value="230.00"/>
-
+        <resilience damagePercent="12.89" hitPercent="6.44" value="254.00"/>
       </defenses>
       <items>
-        <item durability="54" gem0Id="30552" gem1Id="30593" gem2Id="30603" icon="inv_helmet_53" id="24264" maxDurability="60" permanentenchant="3001" randomPropertiesId="0" seed="425451688" slot="0"/>
-        <item durability="0" gem0Id="24053" gem1Id="0" gem2Id="0" icon="inv_jewelry_necklace_36" id="33068" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="1"/>
-        <item durability="50" gem0Id="24029" gem1Id="24053" gem2Id="0" icon="inv_shoulder_02" id="32018" maxDurability="60" permanentenchant="2979" randomPropertiesId="0" seed="0" slot="2"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_blue_01" id="2577" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="2127604147" slot="3"/>
-        <item durability="83" gem0Id="24033" gem1Id="24033" gem2Id="24033" icon="inv_chest_cloth_43" id="32019" maxDurability="100" permanentenchant="2933" randomPropertiesId="0" seed="0" slot="4"/>
-        <item durability="34" gem0Id="24065" gem1Id="24057" gem2Id="0" icon="inv_belt_31" id="21873" maxDurability="35" permanentenchant="0" randomPropertiesId="0" seed="1458883547" slot="5"/>
-        <item durability="71" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_cloth_05" id="32017" maxDurability="75" permanentenchant="2745" randomPropertiesId="0" seed="0" slot="6"/>
-
-        <item durability="32" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_cloth_12" id="27525" maxDurability="40" permanentenchant="929" randomPropertiesId="0" seed="1139250376" slot="7"/>
-        <item durability="30" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_13" id="28511" maxDurability="35" permanentenchant="2617" randomPropertiesId="0" seed="454070884" slot="8"/>
-        <item durability="34" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_gauntlets_15" id="32015" maxDurability="35" permanentenchant="2792" randomPropertiesId="0" seed="0" slot="9"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_62" id="29290" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="380884622" slot="10"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_60" id="33064" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="11"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_trinketpvp_01" id="18862" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="12"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_bandage_16" id="28590" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="539932466" slot="13"/>
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_14" id="25042" maxDurability="0" permanentenchant="0" randomPropertiesId="-16" seed="1955528735" slot="14"/>
-        <item durability="105" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_hammer_04" id="29175" maxDurability="105" permanentenchant="2666" randomPropertiesId="0" seed="0" slot="15"/>
-
-        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_potion_75" id="29274" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="16"/>
-        <item durability="75" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_wand_09" id="28320" maxDurability="75" permanentenchant="0" randomPropertiesId="0" seed="0" slot="17"/>
+        <item durability="53" gem0Id="25895" gem1Id="28362" gem2Id="0" icon="inv_helmet_09" id="31962" maxDurability="85" permanentenchant="3003" randomPropertiesId="0" seed="0" slot="0"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_necklace_34" id="28674" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="1572300832" slot="1"/>
+        <item durability="49" gem0Id="24031" gem1Id="31868" gem2Id="0" icon="inv_shoulder_29" id="31964" maxDurability="85" permanentenchant="2986" randomPropertiesId="0" seed="0" slot="2"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_purple_01" id="10054" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="1482870550" slot="3"/>
+        <item durability="80" gem0Id="24028" gem1Id="24028" gem2Id="31868" icon="inv_chest_chain_11" id="31960" maxDurability="140" permanentenchant="2933" randomPropertiesId="0" seed="0" slot="4"/>
+        <item durability="27" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_22" id="28656" maxDurability="50" permanentenchant="0" randomPropertiesId="0" seed="1256970870" slot="5"/>
+        <item durability="62" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_mail_15" id="31963" maxDurability="105" permanentenchant="3012" randomPropertiesId="0" seed="0" slot="6"/>
+        <item durability="41" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_plate_06" id="32785" maxDurability="70" permanentenchant="2940" randomPropertiesId="0" seed="0" slot="7"/>
+        <item durability="29" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_02" id="28454" maxDurability="50" permanentenchant="1593" randomPropertiesId="0" seed="2037117298" slot="8"/>
+        <item durability="30" gem0Id="24031" gem1Id="24031" gem2Id="0" icon="inv_gauntlets_25" id="28827" maxDurability="50" permanentenchant="1594" randomPropertiesId="0" seed="1059530847" slot="9"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_62" id="29283" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="2022714848" slot="10"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_60" id="33057" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="11"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_bone_06" id="19406" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="12"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_monsterscales_15" id="29383" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="13"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_20" id="33484" maxDurability="0" permanentenchant="368" randomPropertiesId="0" seed="0" slot="14"/>
+        <item durability="47" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_hand_13" id="32028" maxDurability="75" permanentenchant="2666" randomPropertiesId="0" seed="0" slot="15"/>
+        <item durability="47" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_hand_13" id="32003" maxDurability="75" permanentenchant="2666" randomPropertiesId="0" seed="0" slot="16"/>
+        <item durability="45" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_crossbow_10" id="31986" maxDurability="90" permanentenchant="2724" randomPropertiesId="0" seed="0" slot="17"/>
         <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_guildtabard_01" id="5976" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="18"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_ammo_arrow_01" id="28056" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="-1"/>
       </items>
     </characterTab>
   </characterInfo>
 </page>
+="18"/>
+        <item durability="0" gem0Id="0
