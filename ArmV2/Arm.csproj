@@ -12,6 +12,9 @@
     <AssemblyName>Arm</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,11 +54,12 @@
     <Compile Include="ArenaTeam.cs" />
     <Compile Include="BasicPlayerInfo.cs" />
     <Compile Include="Character.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Downloader.cs" />
+    <Compile Include="Viwer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Viwer.Designer.cs">
+      <DependentUpon>Viwer.cs</DependentUpon>
     </Compile>
     <Compile Include="ICON.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -64,9 +68,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Viwer.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>Form1.cs</DependentUpon>
+      <DependentUpon>Viwer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ICON.resx">
       <SubType>Designer</SubType>
@@ -117,6 +121,9 @@
   <ItemGroup>
     <Content Include="armory.xml" />
     <Content Include="COPYING.txt" />
+    <None Include="Resources\close1.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\Viewer_Back.jpg" />
     <None Include="ClassDiagram2.cd" />
     <None Include="images\icons\class\Warrior.png" />
     <None Include="images\icons\class\Warlock.gif" />
@@ -129,6 +136,7 @@
     <None Include="images\icons\class\Druid.gif" />
     <None Include="images\Viewer_Back.jpg" />
     <None Include="images\arena_backround.jpg" />
+    <None Include="Properties\app.manifest" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

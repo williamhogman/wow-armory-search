@@ -67,9 +67,30 @@ namespace Arm.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap close {
+            get {
+                object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap topbg {
+            get {
+                object obj = ResourceManager.GetObject("topbg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Viewer_Back {
             get {
                 object obj = ResourceManager.GetObject("Viewer_Back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Viewer_Back1 {
+            get {
+                object obj = ResourceManager.GetObject("Viewer_Back1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
