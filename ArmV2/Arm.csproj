@@ -106,6 +106,7 @@
     <Compile Include="Search.Designer.cs">
       <DependentUpon>Search.cs</DependentUpon>
     </Compile>
+    <Compile Include="Talents.cs" />
     <Compile Include="Team_Disp.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -116,6 +117,7 @@
   <ItemGroup>
     <Content Include="armory.xml" />
     <Content Include="COPYING.txt" />
+    <None Include="ClassDiagram2.cd" />
     <None Include="images\icons\class\Warrior.png" />
     <None Include="images\icons\class\Warlock.gif" />
     <None Include="images\icons\class\Shaman.gif" />

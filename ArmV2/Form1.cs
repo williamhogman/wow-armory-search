@@ -77,7 +77,7 @@ namespace Arm
        }
 
             //TODO: Display the Talents Armory Style (Holy)
-            Talents(settings);
+            disp_talents(settings);
             // Rescillance Stat
             Resc(settings);
 
@@ -104,27 +104,24 @@ namespace Arm
             }
         }
 
-        private  void Talents(XmlReaderSettings settings)
+        private  void disp_talents(XmlReaderSettings settings)
         {
 
             XmlReader reader = XmlReader.Create("armory.xml", settings);
             reader.ReadToFollowing("talentSpec");
-       string t1  = (reader.GetAttribute("treeOne"));
-       string t2  = (reader.GetAttribute("treeThree"));
-       string t3  = (reader.GetAttribute("treeTwo"));
+            // I use the formate that blizzard uses in the game guide
+       int t1  = Convert.ToInt32((reader.GetAttribute("treeOne")));
+       int t2 = Convert.ToInt32((reader.GetAttribute("treeTwo")));
+       int t3 = Convert.ToInt32((reader.GetAttribute("treeThree")));
 
-            lbl_spec.Text=t1+"/"+t2+"/"+t3;
+           Talents plr_talents = new Talents(lbl_class.Text,t1,t2,t3);
 
-            Talent_Tree_Logic();
+           lbl_spec.Text = plr_talents.ToString();
 
       
         }
 
-        private void Talent_Tree_Logic()
-        {
-            //TALENT LOGIC
-            lbl_spec.Text += " (NYI)";
-        }
+ 
 
         private  void Resc(XmlReaderSettings settings)
         {
