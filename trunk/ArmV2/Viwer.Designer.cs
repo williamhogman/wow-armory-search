@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(viewer));
             this.lbl_name = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_hp = new System.Windows.Forms.Label();
@@ -41,32 +40,41 @@
             this.lbl_resc = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.lbl_spec = new System.Windows.Forms.Label();
+            this.img_class = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_close = new System.Windows.Forms.Button();
             this.team3 = new Arm.Team_Disp();
             this.team2 = new Arm.Team_Disp();
             this.team1 = new Arm.Team_Disp();
-            this.img_class = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img_class)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbl_name
             // 
             this.lbl_name.AutoSize = true;
             this.lbl_name.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lbl_name.Location = new System.Drawing.Point(166, 13);
+            this.lbl_name.Font = new System.Drawing.Font("Palatino Linotype", 14.25F);
+            this.lbl_name.ForeColor = System.Drawing.Color.Black;
+            this.lbl_name.Location = new System.Drawing.Point(239, 30);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(0, 31);
+            this.lbl_name.Size = new System.Drawing.Size(63, 26);
             this.lbl_name.TabIndex = 0;
+            this.lbl_name.Text = "Name";
+            this.lbl_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 20);
+            this.label2.Size = new System.Drawing.Size(46, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "HP";
             // 
@@ -74,10 +82,11 @@
             // 
             this.lbl_hp.AutoSize = true;
             this.lbl_hp.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_hp.Location = new System.Drawing.Point(54, 0);
+            this.lbl_hp.Location = new System.Drawing.Point(55, 0);
             this.lbl_hp.Name = "lbl_hp";
-            this.lbl_hp.Size = new System.Drawing.Size(0, 29);
+            this.lbl_hp.Size = new System.Drawing.Size(65, 29);
             this.lbl_hp.TabIndex = 2;
+            this.lbl_hp.Text = "2000";
             // 
             // lbl_etype
             // 
@@ -104,8 +113,8 @@
             this.lbl_class.AutoSize = true;
             this.lbl_class.BackColor = System.Drawing.Color.Transparent;
             this.lbl_class.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_class.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lbl_class.Location = new System.Drawing.Point(197, 56);
+            this.lbl_class.ForeColor = System.Drawing.Color.Black;
+            this.lbl_class.Location = new System.Drawing.Point(248, 81);
             this.lbl_class.Name = "lbl_class";
             this.lbl_class.Size = new System.Drawing.Size(54, 26);
             this.lbl_class.TabIndex = 5;
@@ -116,12 +125,13 @@
             // 
             this.lbl_race.AutoSize = true;
             this.lbl_race.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_race.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_race.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lbl_race.Location = new System.Drawing.Point(155, 98);
+            this.lbl_race.Font = new System.Drawing.Font("Palatino Linotype", 14.25F);
+            this.lbl_race.ForeColor = System.Drawing.Color.Black;
+            this.lbl_race.Location = new System.Drawing.Point(249, 118);
             this.lbl_race.Name = "lbl_race";
-            this.lbl_race.Size = new System.Drawing.Size(0, 20);
+            this.lbl_race.Size = new System.Drawing.Size(51, 26);
             this.lbl_race.TabIndex = 21;
+            this.lbl_race.Text = "Race";
             // 
             // tableLayoutPanel1
             // 
@@ -131,20 +141,18 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_hp, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.lbl_etype, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label20, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.lbl_resc, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.label22, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.lbl_spec, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.lbl_mana, 1, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(61, 182);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(29, 153);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(282, 100);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(455, 100);
             this.tableLayoutPanel1.TabIndex = 22;
             // 
             // label20
@@ -184,42 +192,85 @@
             this.lbl_spec.Size = new System.Drawing.Size(0, 24);
             this.lbl_spec.TabIndex = 8;
             // 
-            // team3
-            // 
-            this.team3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("team3.BackgroundImage")));
-            this.team3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.team3.Location = new System.Drawing.Point(14, 513);
-            this.team3.Name = "team3";
-            this.team3.Size = new System.Drawing.Size(386, 104);
-            this.team3.TabIndex = 25;
-            // 
-            // team2
-            // 
-            this.team2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("team2.BackgroundImage")));
-            this.team2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.team2.Location = new System.Drawing.Point(14, 411);
-            this.team2.Name = "team2";
-            this.team2.Size = new System.Drawing.Size(386, 104);
-            this.team2.TabIndex = 24;
-            // 
-            // team1
-            // 
-            this.team1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("team1.BackgroundImage")));
-            this.team1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.team1.Location = new System.Drawing.Point(14, 298);
-            this.team1.Name = "team1";
-            this.team1.Size = new System.Drawing.Size(386, 104);
-            this.team1.TabIndex = 23;
-            // 
             // img_class
             // 
             this.img_class.BackgroundImage = global::Arm.ICON.Hunter;
             this.img_class.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.img_class.Location = new System.Drawing.Point(159, 50);
+            this.img_class.Location = new System.Drawing.Point(210, 75);
             this.img_class.Name = "img_class";
             this.img_class.Size = new System.Drawing.Size(32, 32);
             this.img_class.TabIndex = 26;
             this.img_class.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Arm.Properties.Resources.topbg;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 676);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(520, 25);
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Arm.Properties.Resources.topbg;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(510, 23);
+            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseMove);
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseDown);
+            this.pictureBox2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseUp);
+            // 
+            // btn_close
+            // 
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_close.Image = global::Arm.Properties.Resources.close;
+            this.btn_close.Location = new System.Drawing.Point(480, 0);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(30, 23);
+            this.btn_close.TabIndex = 29;
+            this.btn_close.UseVisualStyleBackColor = true;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
+            // team3
+            // 
+            this.team3.BackgroundImage = global::Arm.Properties.Resources.arena_backround;
+            this.team3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.team3.Location = new System.Drawing.Point(63, 522);
+            this.team3.Name = "team3";
+            this.team3.Size = new System.Drawing.Size(386, 132);
+            this.team3.TabIndex = 25;
+            // 
+            // team2
+            // 
+            this.team2.BackgroundImage = global::Arm.Properties.Resources.arena_backround;
+            this.team2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.team2.Location = new System.Drawing.Point(63, 389);
+            this.team2.Name = "team2";
+            this.team2.Size = new System.Drawing.Size(386, 132);
+            this.team2.TabIndex = 24;
+            // 
+            // team1
+            // 
+            this.team1.BackgroundImage = global::Arm.Properties.Resources.arena_backround;
+            this.team1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.team1.Location = new System.Drawing.Point(63, 259);
+            this.team1.Name = "team1";
+            this.team1.Size = new System.Drawing.Size(386, 132);
+            this.team1.TabIndex = 23;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.Controls.Add(this.label2);
+            this.flowLayoutPanel1.Controls.Add(this.lbl_hp);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(29, 30);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(148, 27);
+            this.flowLayoutPanel1.TabIndex = 30;
             // 
             // viewer
             // 
@@ -227,7 +278,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Arm.Properties.Resources.Viewer_Back;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(412, 626);
+            this.ClientSize = new System.Drawing.Size(512, 699);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.btn_close);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.img_class);
             this.Controls.Add(this.lbl_class);
             this.Controls.Add(this.team3);
@@ -236,12 +291,17 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lbl_race);
             this.Controls.Add(this.lbl_name);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "viewer";
-            this.Text = "Form1";
+            this.Text = "Profile Viewer";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img_class)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,6 +325,10 @@
         private Team_Disp team2;
         private Team_Disp team3;
         private System.Windows.Forms.PictureBox img_class;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
 

@@ -1,7 +1,7 @@
 ﻿/* Copyright Nameless Gnome
  * This file is part of WoW Armory Search.
 
-    Foobar is free software: you can redistribute it and/or modify
+    WoW Armory Search is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
@@ -32,32 +32,39 @@ namespace Arm
             InitializeComponent();
         }
 
+        // Draging Variables
+        private bool dragging;
+        private Point offset;
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Old_Load();
 
-            Character chr = new Character("", "");
-            lbl_name.Text   = chr.name;
-            lbl_hp.Text     = chr.Hp.ToString();
-            lbl_class.Text  = chr.Class;
-            lbl_etype.Text  = chr.ManaType();
-            lbl_mana.Text   = chr.Mana.ToString();
-            img_class.Image = chr.Class_Icon();
-            lbl_spec.Text   = chr.Talents.ToString();
-            lbl_race.Text   = chr.Race;
-            lbl_etype.Text  = chr.ManaType();
-
-            //Arena Teams
-            try
+            if (!Program.BUILD_NONET_UIDBG)
             {
-                team1.SetToTeam(chr.ArenaTeams[0]);
-                team2.SetToTeam(chr.ArenaTeams[1]);
-                team3.SetToTeam(chr.ArenaTeams[2]);
-            }
-            catch { 
-            
-            }
+                Character chr = new Character("", "");
 
+                lbl_name.Text = chr.name;
+                lbl_hp.Text = chr.Hp.ToString();
+                lbl_class.Text = chr.Class;
+                lbl_etype.Text = chr.ManaType();
+                lbl_mana.Text = chr.Mana.ToString();
+                img_class.Image = chr.Class_Icon();
+                lbl_spec.Text = chr.Talents.ToString();
+                lbl_race.Text = chr.Race;
+                lbl_etype.Text = chr.ManaType();
+
+                //Arena Teams
+                try
+                {
+                    team1.SetToTeam(chr.ArenaTeams[0]);
+                    team2.SetToTeam(chr.ArenaTeams[1]);
+                    team3.SetToTeam(chr.ArenaTeams[2]);
+                }
+                catch
+                {
+
+                }
+            }
 
 
         }
@@ -198,6 +205,40 @@ namespace Arm
                             }
 
             return Arm.ICON.Warrior;
+        }
+
+       
+      
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_MouseDown(object sender, MouseEventArgs e)
+        {
+            dragging = true;
+            offset = new Point(e.X, e.Y);
+        }
+
+        private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
+        {
+            dragging = false;
+        }
+
+        private void pictureBox2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (dragging)
+            {
+                Point currentScreenPos = PointToScreen(e.Location);
+                Location = new Point
+                    (currentScreenPos.X - offset.X,
+                     currentScreenPos.Y - offset.Y);
+            }
+        }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            Close();
         }
                     
 

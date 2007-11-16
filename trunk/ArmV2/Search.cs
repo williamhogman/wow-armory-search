@@ -36,7 +36,7 @@ namespace Arm
 
         private void btn_go_Click(object sender, EventArgs e)
         {
-    Save(  Download_Char(tbx_name.Text, tbx_rel.Text));
+   // Save(  Download_Char(tbx_name.Text, tbx_rel.Text));
       viewer View_frm = new viewer();     
 
         View_frm.Show();
@@ -77,7 +77,7 @@ namespace Arm
                 MessageBox.Show("Error 503 Service Unavailable");
             if (ex.Message.Contains("400"))
                 MessageBox.Show("Error 400 Bad Request");
-           
+         
         }
 
         string result = "";
