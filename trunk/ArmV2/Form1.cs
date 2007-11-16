@@ -34,6 +34,37 @@ namespace Arm
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Old_Load();
+
+            Character chr = new Character("", "");
+            lbl_name.Text   = chr.name;
+            lbl_hp.Text     = chr.Hp.ToString();
+            lbl_class.Text  = chr.Class;
+            lbl_etype.Text  = chr.ManaType();
+            lbl_mana.Text   = chr.Mana.ToString();
+            img_class.Image = chr.Class_Icon();
+            lbl_spec.Text   = chr.Talents.ToString();
+            lbl_race.Text   = chr.Race;
+            lbl_etype.Text  = chr.ManaType();
+
+            //Arena Teams
+            try
+            {
+                team1.SetToTeam(chr.ArenaTeams[0]);
+                team2.SetToTeam(chr.ArenaTeams[1]);
+                team3.SetToTeam(chr.ArenaTeams[2]);
+            }
+            catch { 
+            
+            }
+
+
+
+        }
+/*
+        private void Old_Load()
+        {
+
             XmlReaderSettings settings = new XmlReaderSettings();
             settings.ConformanceLevel = ConformanceLevel.Fragment;
             settings.IgnoreWhitespace = true;
@@ -43,44 +74,45 @@ namespace Arm
             reader.Read();
 
             reader.ReadToFollowing("character");
-           lbl_name.Text = reader.GetAttribute("name");
-           lbl_class.Text = reader.GetAttribute("class");
-           lbl_race.Text = reader.GetAttribute("race");
-           img_class.BackgroundImage = Class_Icon(reader.GetAttribute("class"));
+            lbl_name.Text = reader.GetAttribute("name");
+            lbl_class.Text = reader.GetAttribute("class");
+            lbl_race.Text = reader.GetAttribute("race");
+            img_class.BackgroundImage = Class_Icon(reader.GetAttribute("class"));
 
-             reader.ReadToFollowing("health");
-             lbl_hp.Text = reader.GetAttribute("effective");
+            reader.ReadToFollowing("health");
+            lbl_hp.Text = reader.GetAttribute("effective");
 
-           reader.ReadToFollowing("secondBar");
-            string ene_type=reader.GetAttribute("type");
-            string ene_mana=reader.GetAttribute("effective");
-           //Display Mana
+            reader.ReadToFollowing("secondBar");
+            string ene_type = reader.GetAttribute("type");
+            string ene_mana = reader.GetAttribute("effective");
+            //Display Mana
             Mana_Display(ene_type, ene_mana);
 
-       reader = XmlReader.Create("armory.xml", settings);
-       try
-       {
-           reader.ReadToFollowing("arenaTeams");
-           // Arena Teams to be Phrased 3 times at max
-           team1.SetToTeam(ArenaTeam_ext(reader)); // 2v2
-           team2.SetToTeam(ArenaTeam_ext(reader)); // 3v3
-           team3.SetToTeam(ArenaTeam_ext(reader)); // 3v3
-        
-       } catch (Exception ex) {
-           if (ex.Message.Contains("end of file"))
-           {
-            
-               team1.Hide();
-               team2.Hide();
-               team3.Hide();
-           }
-       }
+            reader = XmlReader.Create("armory.xml", settings);
+            try
+            {
+                reader.ReadToFollowing("arenaTeams");
+                // Arena Teams to be Phrased 3 times at max
+                team1.SetToTeam(ArenaTeam_ext(reader)); // 2v2
+                team2.SetToTeam(ArenaTeam_ext(reader)); // 3v3
+                team3.SetToTeam(ArenaTeam_ext(reader)); // 3v3
 
-            //TODO: Display the Talents Armory Style (Holy)
+            }
+            catch (Exception ex)
+            {
+                if (ex.Message.Contains("end of file"))
+                {
+
+                    team1.Hide();
+                    team2.Hide();
+                    team3.Hide();
+                }
+            }
+
+
             disp_talents(settings);
             // Rescillance Stat
             Resc(settings);
-
 
 
         }
@@ -109,7 +141,7 @@ namespace Arm
 
             XmlReader reader = XmlReader.Create("armory.xml", settings);
             reader.ReadToFollowing("talentSpec");
-            // I use the formate that blizzard uses in the game guide
+            // I use the formate that blizzard uses in the game guideS
        int t1  = Convert.ToInt32((reader.GetAttribute("treeOne")));
        int t2 = Convert.ToInt32((reader.GetAttribute("treeTwo")));
        int t3 = Convert.ToInt32((reader.GetAttribute("treeThree")));
@@ -121,7 +153,7 @@ namespace Arm
       
         }
 
- 
+ */
 
         private  void Resc(XmlReaderSettings settings)
         {
@@ -139,79 +171,30 @@ namespace Arm
           
         }
 
-        private ArenaTeam ArenaTeam_ext( XmlReader reader)
-        {
-            
-            try
-            {
-                reader.ReadToFollowing("arenaTeam");
-                if (!(reader.GetAttribute("name") == null))
-                {
-                    ArenaTeam te=new ArenaTeam();
-                   
-                    te.Name = reader.GetAttribute("name");
-                    te.Rating = Convert.ToInt32( reader.GetAttribute("rating"));
-                    te.Win = Convert.ToInt32(reader.GetAttribute("gamesWon"));
-                    te.Lose = (Convert.ToInt32(reader.GetAttribute("gamesPlayed")) - te.Win);
-                    te.Size = Convert.ToInt32(reader.GetAttribute("size"));
-                    reader.ReadToFollowing("members");
-                    te.members = Get_ArenaTeam_Members(reader.ReadSubtree());
-                    return te;
-                }
-            }
-            catch {
-             
-           
-            }
-            return null;
-        }
-
-
-        public List<BasicPlayerInfo> Get_ArenaTeam_Members (XmlReader reader){
-            List<BasicPlayerInfo> ret= new List<BasicPlayerInfo>();
-            bool stop=false;
-            while (!stop)
-            {
-                reader.ReadToFollowing("character");
-            string mem_class =    reader.GetAttribute("class");
-            string plr_name = reader.GetAttribute("name");
-                if (mem_class==null){
-                stop=true;
-                }else{
-                    ret.Add(new BasicPlayerInfo(plr_name, mem_class));
-
-
-
-                }
-               
-
-                }
-
-            return ret;
-            }
+   
 
 
         public Image Class_Icon(string classname) {
 
-            switch (classname) {
+            switch (classname.ToLower()) {
 
-                case "Druid": return Arm.ICON.Druid; break;
+                case "druid": return Arm.ICON.Druid; break;
 
-                case "Hunter": return Arm.ICON.Hunter; break;
+                case "hunter": return Arm.ICON.Hunter; break;
 
-                case "Mage": return Arm.ICON.Mage; break;
+                case "mage": return Arm.ICON.Mage; break;
 
-                case "Paladin": return Arm.ICON.Paladin; break;
+                case "paladin": return Arm.ICON.Paladin; break;
 
-                case "Priest": return Arm.ICON.Priest; break;
+                case "priest": return Arm.ICON.Priest; break;
 
-                case "Rogue": return Arm.ICON.Rogue; break;
+                case "rogue": return Arm.ICON.Rogue; break;
 
-                case "Shaman": return Arm.ICON.Shaman; break;
+                case "shaman": return Arm.ICON.Shaman; break;
 
-                case "Warlock": return Arm.ICON.Warlock; break;
+                case "warlock": return Arm.ICON.Warlock; break;
 
-                case "Warrior": return Arm.ICON.Warrior; break;
+                case "warrior": return Arm.ICON.Warrior; break;
                             }
 
             return Arm.ICON.Warrior;
