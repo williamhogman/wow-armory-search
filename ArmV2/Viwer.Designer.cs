@@ -35,10 +35,8 @@
             this.lbl_mana = new System.Windows.Forms.Label();
             this.lbl_class = new System.Windows.Forms.Label();
             this.lbl_race = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label20 = new System.Windows.Forms.Label();
             this.lbl_resc = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
             this.lbl_spec = new System.Windows.Forms.Label();
             this.img_class = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -48,11 +46,14 @@
             this.team2 = new Arm.Team_Disp();
             this.team1 = new Arm.Team_Disp();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.img_class)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.flowLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbl_name
@@ -91,10 +92,10 @@
             // lbl_etype
             // 
             this.lbl_etype.AutoSize = true;
-            this.lbl_etype.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_etype.Location = new System.Drawing.Point(3, 50);
+            this.lbl_etype.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lbl_etype.Location = new System.Drawing.Point(3, 0);
             this.lbl_etype.Name = "lbl_etype";
-            this.lbl_etype.Size = new System.Drawing.Size(45, 18);
+            this.lbl_etype.Size = new System.Drawing.Size(42, 16);
             this.lbl_etype.TabIndex = 3;
             this.lbl_etype.Text = "Mana";
             // 
@@ -102,7 +103,7 @@
             // 
             this.lbl_mana.AutoSize = true;
             this.lbl_mana.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_mana.Location = new System.Drawing.Point(54, 50);
+            this.lbl_mana.Location = new System.Drawing.Point(51, 0);
             this.lbl_mana.Name = "lbl_mana";
             this.lbl_mana.Size = new System.Drawing.Size(52, 29);
             this.lbl_mana.TabIndex = 4;
@@ -133,33 +134,11 @@
             this.lbl_race.TabIndex = 21;
             this.lbl_race.Text = "Race";
             // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.ColumnCount = 5;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.Controls.Add(this.lbl_etype, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label20, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_resc, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label22, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_spec, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_mana, 1, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(29, 153);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(455, 100);
-            this.tableLayoutPanel1.TabIndex = 22;
-            // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(112, 0);
+            this.label20.Location = new System.Drawing.Point(3, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(37, 18);
             this.label20.TabIndex = 5;
@@ -169,32 +148,26 @@
             // 
             this.lbl_resc.AutoSize = true;
             this.lbl_resc.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_resc.Location = new System.Drawing.Point(155, 0);
+            this.lbl_resc.Location = new System.Drawing.Point(46, 0);
             this.lbl_resc.Name = "lbl_resc";
-            this.lbl_resc.Size = new System.Drawing.Size(0, 29);
+            this.lbl_resc.Size = new System.Drawing.Size(39, 29);
             this.lbl_resc.TabIndex = 6;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(112, 50);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(37, 13);
-            this.label22.TabIndex = 7;
-            this.label22.Text = "Talent";
+            this.lbl_resc.Text = "30";
             // 
             // lbl_spec
             // 
             this.lbl_spec.AutoSize = true;
+            this.lbl_spec.BackColor = System.Drawing.Color.Transparent;
             this.lbl_spec.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_spec.Location = new System.Drawing.Point(155, 50);
+            this.lbl_spec.ForeColor = System.Drawing.Color.Black;
+            this.lbl_spec.Location = new System.Drawing.Point(340, 68);
             this.lbl_spec.Name = "lbl_spec";
-            this.lbl_spec.Size = new System.Drawing.Size(0, 24);
+            this.lbl_spec.Size = new System.Drawing.Size(213, 24);
             this.lbl_spec.TabIndex = 8;
+            this.lbl_spec.Text = "14/19/24 (Beast Mastery)";
             // 
             // img_class
             // 
-            this.img_class.BackgroundImage = global::Arm.ICON.Hunter;
             this.img_class.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.img_class.Location = new System.Drawing.Point(210, 75);
             this.img_class.Name = "img_class";
@@ -272,6 +245,26 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(148, 27);
             this.flowLayoutPanel1.TabIndex = 30;
             // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel2.Controls.Add(this.lbl_etype);
+            this.flowLayoutPanel2.Controls.Add(this.lbl_mana);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(29, 63);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(148, 32);
+            this.flowLayoutPanel2.TabIndex = 31;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel3.Controls.Add(this.label20);
+            this.flowLayoutPanel3.Controls.Add(this.lbl_resc);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(344, 26);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(145, 30);
+            this.flowLayoutPanel3.TabIndex = 32;
+            // 
             // viewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -279,6 +272,9 @@
             this.BackgroundImage = global::Arm.Properties.Resources.Viewer_Back;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(512, 699);
+            this.Controls.Add(this.lbl_spec);
+            this.Controls.Add(this.flowLayoutPanel3);
+            this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.pictureBox2);
@@ -288,20 +284,21 @@
             this.Controls.Add(this.team3);
             this.Controls.Add(this.team2);
             this.Controls.Add(this.team1);
-            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lbl_race);
             this.Controls.Add(this.lbl_name);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "viewer";
             this.Text = "Profile Viewer";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img_class)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel2.PerformLayout();
+            this.flowLayoutPanel3.ResumeLayout(false);
+            this.flowLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,10 +313,8 @@
         private System.Windows.Forms.Label lbl_mana;
         private System.Windows.Forms.Label lbl_class;
         private System.Windows.Forms.Label lbl_race;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label lbl_resc;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label lbl_spec;
         private Team_Disp team1;
         private Team_Disp team2;
@@ -329,6 +324,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btn_close;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
     }
 }
 

@@ -119,7 +119,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="armory.xml" />
     <Content Include="COPYING.txt" />
     <None Include="Resources\close1.png" />
     <None Include="Resources\close.png" />

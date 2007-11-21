@@ -23,7 +23,7 @@ namespace Arm
 {
     static class Program
     {
-        public const bool BUILD_NONET_UIDBG = true;
+        public const bool BUILD_NONET_UIDBG = false;
         
         /// <summary>
         /// The main entry point for the application.

@@ -12,7 +12,7 @@ namespace Arm
     {
         // Connection Constants
    const   string CON_DEF_HEADERS_USER_AGENT = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) Gecko/20070219 Firefox/2.0.0.2";
-    const   string CON_DEF_ADR_BASE           = "http://eu.wowarmory.com/character-sheet.xml";
+    const   string CON_DEF_ADR_BASE           = "http://wowarmory.com/character-sheet.xml";
 
 
 
@@ -67,6 +67,12 @@ namespace Arm
             response.Close();
 
             reader.Close();
+
+
+        // Workaround for Armory XML Error
+    int del_pointer  =    result.IndexOf("</page>");
+    result=  result.Remove(del_pointer);
+    result=  result.Insert(del_pointer, "</page>");
 
             return result;
 

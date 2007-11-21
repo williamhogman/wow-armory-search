@@ -36,7 +36,7 @@ namespace Arm
 
         private void btn_go_Click(object sender, EventArgs e)
         {
-   // Save(  Download_Char(tbx_name.Text, tbx_rel.Text));
+  Save(  Downloader.Download_Char(tbx_name.Text, tbx_rel.Text));
       viewer View_frm = new viewer();     
 
         View_frm.Show();
