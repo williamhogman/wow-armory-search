@@ -91,17 +91,17 @@ namespace Arm
 
             // Extract Three Arena Teams CATCH statement 
             //for Character with less than 3 teams
-            reader.ReadToFollowing("arenaTeams");
+           
             try 
             {
-
+                reader.ReadToFollowing("arenaTeams");
                 ArenaTeams.Add(ArenaTeam_ext());
                 ArenaTeams.Add(ArenaTeam_ext());
                 ArenaTeams.Add(ArenaTeam_ext());
   
             }catch (Exception ex) {
-                if (! ex.Message.Contains("end of file"))
-                throw; // Rethrow if strange error
+                if (!ex.Message.Contains("end of file")) ;
+              // Rethrow if strange error
                  
                 
             }
@@ -202,8 +202,14 @@ namespace Arm
                  
                  //Resilience
                  reader.ReadToFollowing("resilience");
-                 Resilience =Convert.ToInt32( reader.GetAttribute("value").Replace(".00",""));
+                 try
+                 {
+                     Resilience = Convert.ToInt32(reader.GetAttribute("value").Replace(".00", ""));
+                 }
+                 catch {
+                     Resilience = Convert.ToInt16( Convert.ToDouble(reader.GetAttribute("value")));
 
+                 }
              }
 
           

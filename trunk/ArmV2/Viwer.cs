@@ -48,7 +48,7 @@ namespace Arm
                 lbl_class.Text = chr.Class;
                 lbl_etype.Text = chr.ManaType();
                 lbl_mana.Text = chr.Mana.ToString();
-                img_class.Image = chr.Class_Icon();
+                img_class.BackgroundImage = chr.Class_Icon();
                 lbl_spec.Text = chr.Talents.ToString();
                 lbl_race.Text = chr.Race;
                 lbl_etype.Text = chr.ManaType();
@@ -162,50 +162,10 @@ namespace Arm
 
  */
 
-        private  void Resc(XmlReaderSettings settings)
-        {
-            XmlReader reader = XmlReader.Create("armory.xml", settings);
 
-            reader.ReadToFollowing("defenses");
-            reader.ReadToFollowing("resilience");
-
-            lbl_resc.Text = reader.GetAttribute("value").Replace(".00","");
-          
-            string resc_negdmg = reader.GetAttribute("damagePercent");
-
-            string resc_negcrit = reader.GetAttribute("hitPercent");
-
-          
-        }
 
    
 
-
-        public Image Class_Icon(string classname) {
-
-            switch (classname.ToLower()) {
-
-                case "druid": return Arm.ICON.Druid; break;
-
-                case "hunter": return Arm.ICON.Hunter; break;
-
-                case "mage": return Arm.ICON.Mage; break;
-
-                case "paladin": return Arm.ICON.Paladin; break;
-
-                case "priest": return Arm.ICON.Priest; break;
-
-                case "rogue": return Arm.ICON.Rogue; break;
-
-                case "shaman": return Arm.ICON.Shaman; break;
-
-                case "warlock": return Arm.ICON.Warlock; break;
-
-                case "warrior": return Arm.ICON.Warrior; break;
-                            }
-
-            return Arm.ICON.Warrior;
-        }
 
        
       

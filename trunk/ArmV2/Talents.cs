@@ -20,15 +20,15 @@ namespace Arm
         /// </summary>
         private Tree_Names T_myclass;
 
-        private  Tree_Names T_NAME_DRUID   = new Tree_Names("Balance", "Feral", "Restoration");
-        private  Tree_Names T_NAME_HUNTER  = new Tree_Names("Beast Mastery", "Marksmanship", "Survival");
+        private  Tree_Names T_NAME_DRUID   = new Tree_Names("Balance", "Feral", "Resto");
+        private  Tree_Names T_NAME_HUNTER  = new Tree_Names("BM", "Mark", "Sur");
         private  Tree_Names T_NAME_MAGE    = new Tree_Names("Arcane", "Fire", "Frost");
-        private  Tree_Names T_NAME_PALADIN = new Tree_Names("Holy", "Protection", "Retribution");
-        private  Tree_Names T_NAME_PRIEST  = new Tree_Names("Discipline", "Holy", "Shadow");
-        private  Tree_Names T_NAME_ROGUE   = new Tree_Names("Assassination", "Combat", "Subtlety");
-        private  Tree_Names T_NAME_SHAMAN  = new Tree_Names("Elemental", "Enhancement", "Restoration");
-        private  Tree_Names T_NAME_WARLOCK = new Tree_Names("Affliction", "Demonology", "Destruction");
-        private  Tree_Names T_NAME_WARRIOR = new Tree_Names("Arms", "Fury", "Protection");
+        private  Tree_Names T_NAME_PALADIN = new Tree_Names("Holy", "Prot", "Retri");
+        private  Tree_Names T_NAME_PRIEST  = new Tree_Names("Disc", "Holy", "Shadow");
+        private  Tree_Names T_NAME_ROGUE   = new Tree_Names("Assassin", "Combat", "Subtlety");
+        private  Tree_Names T_NAME_SHAMAN  = new Tree_Names("Ele", "Ench", "Resto");
+        private  Tree_Names T_NAME_WARLOCK = new Tree_Names("Aff", "Demo", "Dest");
+        private  Tree_Names T_NAME_WARRIOR = new Tree_Names("Arms", "Fury", "Prot");
 
         public Talents(string set_class,int t1,int t2,int t3)
         {
@@ -37,17 +37,26 @@ namespace Arm
             Tree2 = t2;
             Tree3 = t3;
 
-            switch (myclass.ToLower()) {
+            try
+            {
+                switch (myclass.ToLower())
+                {
 
-                case "druid": T_myclass = T_NAME_DRUID; break;
-                case "hunter": T_myclass = T_NAME_HUNTER; break;
-                case "mage": T_myclass = T_NAME_MAGE; break;
-                case "paladin": T_myclass = T_NAME_PALADIN; break;
-                case "priest": T_myclass = T_NAME_PRIEST; break;
-                case "rogue": T_myclass = T_NAME_ROGUE; break;
-                case "shaman": T_myclass = T_NAME_SHAMAN; break;
-                case "warlock": T_myclass = T_NAME_WARLOCK; break;
-                case "warrior": T_myclass = T_NAME_WARRIOR; break;
+                    case "druid": T_myclass = T_NAME_DRUID; break;
+                    case "hunter": T_myclass = T_NAME_HUNTER; break;
+                    case "mage": T_myclass = T_NAME_MAGE; break;
+                    case "paladin": T_myclass = T_NAME_PALADIN; break;
+                    case "priest": T_myclass = T_NAME_PRIEST; break;
+                    case "rogue": T_myclass = T_NAME_ROGUE; break;
+                    case "shaman": T_myclass = T_NAME_SHAMAN; break;
+                    case "warlock": T_myclass = T_NAME_WARLOCK; break;
+                    case "warrior": T_myclass = T_NAME_WARRIOR; break;
+                }
+
+            }
+            catch {
+                //FIXME: Replace with Unk Image
+                T_myclass = T_NAME_DRUID;
             }
 
         }
