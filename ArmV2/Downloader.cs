@@ -12,13 +12,13 @@ namespace Arm
     {
         // Connection Constants
    const   string CON_DEF_HEADERS_USER_AGENT = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) Gecko/20070219 Firefox/2.0.0.2";
-    const   string CON_DEF_ADR_BASE           = "http://wowarmory.com/character-sheet.xml";
+    const   string CON_DEF_ADR_BASE           = "http://eu.wowarmory.com/character-sheet.xml";
 
 
 
        static public string Download_Char(string name, string server)
         {
-            return Arm_dl(CON_DEF_ADR_BASE + "?r=" + server + "&n=" + name);
+            return Download(CON_DEF_ADR_BASE + "?r=" + server + "&n=" + name);
         }
 
 
@@ -32,6 +32,49 @@ namespace Arm
         
         }
 
+
+
+       static public string Download(string adr) {
+           HttpWebRequest req = (HttpWebRequest)WebRequest.Create(adr);
+           req.UserAgent = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) Gecko/20070219 Firefox/2.0.0.2";
+           HttpWebResponse response = null;
+           try
+           {
+               response = (HttpWebResponse)req.GetResponse();
+           }
+           catch (Exception ex)
+           {
+               if (ex.Message.Contains("503"))
+                  System.Diagnostics.Trace.Write(("Error 503 Service Unavailable"));
+               if (ex.Message.Contains("400"))
+                   System.Diagnostics.Trace.Write(("Error 400 Bad Request"));
+
+           }
+
+           string result = "";
+           System.Text.Encoding ec = System.Text.Encoding.GetEncoding("utf-8");
+           System.IO.StreamReader reader = new System.IO.StreamReader(response.GetResponseStream(), ec);
+           char[] chars = new Char[256];
+           int count = reader.Read(chars, 0, 256);
+
+           while (count > 0)
+           {
+               string str = new String(chars, 0, 256);
+               result = result + str;
+               count = reader.Read(chars, 0, 256);
+           }
+           response.Close();
+
+           reader.Close();
+           // Mark Errors and remove them
+           int del_pointer = result.IndexOf("</page>");
+           result = result.Remove(del_pointer);
+           result = result.Insert(del_pointer, "</page>");
+
+
+           return result;
+       
+       }
 
        static public string Arm_dl(string adr)
         {

@@ -41,8 +41,10 @@ namespace Arm
         static public System.Xml.XmlReaderSettings DEF_XML_SEETINGS() {
             System.Xml.XmlReaderSettings settings = new System.Xml.XmlReaderSettings();
             settings.ConformanceLevel = System.Xml.ConformanceLevel.Fragment;
+
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
+           
 
             return settings;
         
