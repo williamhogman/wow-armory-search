@@ -71,7 +71,7 @@ namespace Arm
 
            
           //CHECK: Following Line Needed?
-            reader.Read();
+           // reader.Read();
 
 
             reader.ReadToFollowing("character");
